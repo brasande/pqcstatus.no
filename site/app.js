@@ -75,7 +75,6 @@ async function init() {
   setupTheme();
   setupTooltips();
   setupDialog();
-  $('legend').innerHTML = ORDER.map((st) => `<li>${badge(st)}<span>${esc(STATUS[st].desc)}</span></li>`).join('');
 
   try {
     data = await getJSON('data/latest.json');

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KvanteSjekk</title>
+  <title>pqcstatus.no</title>
   <meta name="description" content="Daglig oversikt over hvilke offentlige nettsider i Norge som støtter post-kvante-kryptografi (hybrid ML-KEM) i TLS.">
   <meta name="theme-color" content="#0b7a5a">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='4' fill='%230b7a5a'/><g fill='none' stroke='%230b7a5a' stroke-width='2'><ellipse cx='16' cy='16' rx='14' ry='5.5'/><ellipse cx='16' cy='16' rx='14' ry='5.5' transform='rotate(60 16 16)'/><ellipse cx='16' cy='16' rx='14' ry='5.5' transform='rotate(120 16 16)'/></g></svg>">
@@ -17,7 +17,7 @@
 
   <header class="topbar">
     <div class="wrap topbar-inner">
-      <a class="brand" href="#" aria-label="KvanteSjekk, til toppen">
+      <a class="brand" href="#" aria-label="pqcstatus.no, til toppen">
         <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
           <circle cx="16" cy="16" r="3.6" class="nucleus"/>
           <g class="orbits">
@@ -27,12 +27,11 @@
           </g>
           <circle r="1.9" class="electron"><animateMotion dur="3.2s" repeatCount="indefinite" path="M29.5,16 a13.5,5.2 0 1,1 -27,0 a13.5,5.2 0 1,1 27,0"/></circle>
         </svg>
-        <span>KvanteSjekk</span>
+        <span>pqcstatus.no</span>
       </a>
       <nav class="nav" aria-label="Hovedmeny">
         <a href="#sectors">Sektorer</a>
         <a href="#sites">Nettsteder</a>
-        <a href="#about">Om</a>
       </nav>
       <button class="icon-btn" id="theme" type="button" aria-label="Bytt fargetema"></button>
     </div>
@@ -132,51 +131,11 @@
           <div class="more-wrap"><button id="more" class="btn" type="button" hidden>Vis flere</button></div>
         </section>
       </div>
-
-      <section id="about" class="section">
-        <div class="section-head">
-          <h2>Om målingen</h2>
-        </div>
-        <div class="faq">
-          <details open>
-            <summary>Hva er post-kvante-kryptografi, og hvorfor haster det?</summary>
-            <p>Kryptert trafikk som tas opp i dag kan lagres og dekrypteres senere, når kraftige kvantedatamaskiner finnes
-              («høst nå, dekrypter senere»). Hybrid nøkkelutveksling som <code>X25519MLKEM768</code> kombinerer klassisk
-              kryptografi med ML-KEM (FIPS 203) og beskytter mot dette allerede nå.</p>
-          </details>
-          <details>
-            <summary>Hva betyr statusene?</summary>
-            <ul class="legend" id="legend"></ul>
-          </details>
-          <details>
-            <summary>Hvilke nettsteder er med?</summary>
-            <p>Alle virksomheter i Enhetsregisteret i statsforvaltningen (sektorkode 6100) og kommuneforvaltningen (6500)
-              med registrert hjemmeside. I tillegg kommer offentlige tjenester fra Wikidata som er knyttet til disse
-              virksomhetene, og en kuratert liste med fellestjenester som MinID, ID-porten og Altinn.</p>
-          </details>
-          <details>
-            <summary>Hvordan måler dere?</summary>
-            <p>Én gang i døgnet sender vi <em>én</em> vanlig forespørsel til forsiden, akkurat som en nettleser. Vi tilbyr
-              hybrid ML-KEM og klassisk nøkkelutveksling, og ser hva serveren velger. Det er det samme besøkende får.
-              Forespørselen er merket med <code>KvanteSjekk</code> og lenke til prosjektet.</p>
-          </details>
-          <details>
-            <summary>Hva måles ikke?</summary>
-            <p>Sertifikatene er fortsatt klassiske (RSA/ECDSA), for post-kvante-signaturer er ikke tatt i bruk i offentlig
-              WebPKI ennå. Målingen sier heller ingenting om annen sikkerhet på nettstedet.</p>
-          </details>
-          <details>
-            <summary>Er noe feil, eller vil dere ta ut et nettsted?</summary>
-            <p>Opprett en sak i prosjektets repo. Nettsteder kan legges til eller tas ut av målingen.</p>
-          </details>
-        </div>
-        <p class="downloads">Åpne data: <a href="data/latest.csv" download>CSV</a> · <a href="data/latest.json">JSON</a> · <a href="data/history.json">historikk</a></p>
-      </section>
     </div>
   </main>
 
   <footer class="footer">
-    <div class="wrap">KvanteSjekk · Data fra Enhetsregisteret (Brønnøysundregistrene, NLOD) og Wikidata (CC0)</div>
+    <div class="wrap">pqcstatus.no · Data fra Enhetsregisteret (Brønnøysundregistrene, NLOD) og Wikidata (CC0)</div>
   </footer>
 
   <dialog id="detail" class="detail" aria-labelledby="dTitle" tabindex="-1">

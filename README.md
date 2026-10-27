@@ -1,4 +1,4 @@
-# KvanteSjekk
+# pqcstatus.no
 
 Daglig oversikt over hvilke offentlige nettsider i Norge som støtter post-kvante nøkkelutveksling
 (hybrid ML-KEM, `X25519MLKEM768`) i TLS.
