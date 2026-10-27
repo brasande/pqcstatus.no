@@ -1,0 +1,38 @@
+# Offentlige nettsteder som ikke fanges opp av Enhetsregisteret eller Wikidata.
+# Format: vert;orgnr;navn;kategori
+#   orgnr    knytter nettstedet til virksomheten i Enhetsregisteret (anbefalt)
+#   navn     valgfritt, overstyrer navnet (f.eks. tjenestens navn)
+#   kategori valgfri: stat, kommune, fylkeskommune, kommunal-annen, kirke
+
+# Fylkeskommuner uten hjemmeside i Enhetsregisteret (kontrollert 2026-10-27)
+agderfk.no;921707134
+afk.no;930580783
+bfk.no;930580260
+ffk.no;830090282
+innlandetfylke.no;920717152
+telemarkfylke.no;929882989
+trondelagfylke.no;817920632
+vestfoldfylke.no;929882385
+ofk.no;930580694
+
+# Felles nettsteder som deles av mange virksomheter: gir riktig visningsnavn
+www.kirken.no;818066872;Den norske kirke;kirke
+www.regjeringen.no;;Regjeringen (departementene);stat
+www.politiet.no;;Politiet;stat
+www.forsvaret.no;;Forsvaret;stat
+www.statsforvalteren.no;;Statsforvalteren;stat
+
+# Felles offentlige tjenester (kontrollert 2026-10-27)
+altinn.no;991825827;Altinn (Digdir)
+helsenorge.no;994598759;Helsenorge (Norsk helsenett SF);stat
+minid.no;991825827;MinID (Digdir)
+idporten.no;991825827;ID-porten (Digdir)
+login.idporten.no;991825827;ID-porten innlogging (Digdir)
+ansattporten.no;991825827;Ansattporten (Digdir)
+norge.no;991825827;Norge.no (Digdir)
+data.norge.no;991825827;data.norge.no (Digdir)
+arbeidsplassen.nav.no;889640782;Arbeidsplassen (NAV)
+nyinorge.no;987879696;Ny i Norge (IMDi)
+nettvett.no;985165262;Nettvett (NSM)
+ung.no;986128433;ung.no (Bufdir)
+eiendomsregisteret.kartverket.no;971040238;Eiendomsregisteret (Kartverket)

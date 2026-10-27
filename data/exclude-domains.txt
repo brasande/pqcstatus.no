@@ -1,0 +1,2 @@
+# Verter som skal utelates fra skanningen (én per linje), f.eks. ved ønske fra eier
+# eller feilregistrerte hjemmesider i Enhetsregisteret.

@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    paths: ["**.go", "go.mod", ".github/workflows/ci.yml"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - run: go vet ./...
+      - run: go build ./...
+      - name: Røyktest mot noen få nettsteder
+        run: |
+          mkdir -p /tmp/ks
+          cat > /tmp/ks/domains.json <<'EOF'
+          [
+            {"host": "www.regjeringen.no", "category": "stat", "orgs": [{"name": "Regjeringen", "orgForm": "STAT"}]},
+            {"host": "www.nav.no", "category": "stat", "orgs": [{"name": "NAV", "orgForm": "STAT"}]}
+          ]
+          EOF
+          go run ./cmd/kvantesjekk scan -in /tmp/ks/domains.json -out /tmp/ks/out -archive /tmp/ks/archive
+          cat /tmp/ks/out/latest.csv

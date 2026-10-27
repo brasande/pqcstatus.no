@@ -1,0 +1,65 @@
+name: Daglig skann
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # 03:00 UTC hver natt
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Skann bare de første N nettstedene (0 = alle)"
+        default: "0"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Bygg
+        run: go build -o kvantesjekk ./cmd/kvantesjekk
+
+      - name: Hent nettsteder fra Enhetsregisteret
+        run: ./kvantesjekk domains
+
+      - name: Skann
+        run: >
+          ./kvantesjekk scan
+          -limit "${{ github.event.inputs.limit || '0' }}"
+          -ua "KvanteSjekk/0.1 (+${{ github.server_url }}/${{ github.repository }})"
+
+      - name: Lagre resultater i repoet
+        run: |
+          git config user.name "kvantesjekk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data
+          git diff --cached --quiet || git commit -m "Skann $(date -u +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
