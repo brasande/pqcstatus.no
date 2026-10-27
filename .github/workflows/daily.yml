@@ -23,17 +23,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-go@v5
+      - uses: actions/setup-go@v6
         with:
           go-version: stable
+          cache: false # ingen avhengigheter å cache
 
       - name: Bygg
         run: go build -o kvantesjekk ./cmd/kvantesjekk
 
-      - name: Hent nettsteder fra Enhetsregisteret
-        run: ./kvantesjekk domains
+      # Feiler Brreg eller Wikidata, skannes gårsdagens liste i stedet for at hele kjøringen stopper.
+      - name: Hent nettsteder fra Enhetsregisteret og Wikidata
+        run: >
+          ./kvantesjekk domains -ua "KvanteSjekk/0.1 (+${{ github.server_url }}/${{ github.repository }})"
+          || echo "::warning::Kunne ikke hente ny liste over nettsteder, bruker forrige data/domains.json"
 
       - name: Skann
         run: >

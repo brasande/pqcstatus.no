@@ -78,6 +78,7 @@ func runDomains(args []string) error {
 	extra := fs.String("extra", "data/extra-domains.txt", "ekstra nettsteder (vert;orgnr;navn;kategori)")
 	exclude := fs.String("exclude", "data/exclude-domains.txt", "verter som skal utelates")
 	wikidata := fs.Bool("wikidata", true, "hent også nettsteder fra Wikidata for de offentlige virksomhetene")
+	ua := fs.String("ua", "KvanteSjekk/0.1 (+https://github.com/brasande/pqcstatus.no)", "User-Agent (Wikidata krever kontaktinfo)")
 	fs.Parse(args)
 
 	excluded, err := readExcludes(*exclude)
@@ -111,6 +112,7 @@ func runDomains(args []string) error {
 	public := map[string]Org{}
 	hasSite := map[string]bool{} // orgnr med hjemmeside i Brreg
 	client := &http.Client{Timeout: 90 * time.Second}
+	userAgent = *ua
 	skipped := 0
 	for _, sector := range strings.Split(*sectors, ",") {
 		enheter, err := fetchSector(client, strings.TrimSpace(sector))
@@ -226,9 +228,7 @@ func fetchSector(client *http.Client, sector string) ([]brregEnhet, error) {
 	var all []brregEnhet
 	for page := 0; ; page++ {
 		url := fmt.Sprintf("%s?institusjonellSektorkode=%s&size=%d&page=%d", brregURL, sector, size, page)
-		req, _ := http.NewRequest("GET", url, nil)
-		req.Header.Set("Accept", "application/json")
-		resp, err := client.Do(req)
+		resp, err := get(client, url, "application/json")
 		if err != nil {
 			return nil, err
 		}
@@ -265,10 +265,7 @@ type wikidataSite struct {
 }
 
 func fetchWikidata(client *http.Client) ([]wikidataSite, error) {
-	req, _ := http.NewRequest("GET", wikidataURL+"?query="+url.QueryEscape(wikidataQuery), nil)
-	req.Header.Set("Accept", "application/sparql-results+json")
-	req.Header.Set("User-Agent", "KvanteSjekk/0.1 (PQC-status for offentlige nettsteder)")
-	resp, err := client.Do(req)
+	resp, err := get(client, wikidataURL+"?query="+url.QueryEscape(wikidataQuery), "application/sparql-results+json")
 	if err != nil {
 		return nil, err
 	}
@@ -434,4 +431,35 @@ func eachLine(path string, fn func(string)) error {
 		fn(line)
 	}
 	return sc.Err()
+}
+
+var userAgent = "KvanteSjekk/0.1"
+
+// get prøver opptil tre ganger ved nettverksfeil, 429 og 5xx, siden både
+// Brreg og Wikidata av og til struper forespørsler fra skytjenester.
+func get(client *http.Client, url, accept string) (*http.Response, error) {
+	var lastErr error
+	for attempt := 0; attempt < 3; attempt++ {
+		if attempt > 0 {
+			time.Sleep(time.Duration(attempt*attempt) * 10 * time.Second)
+		}
+		req, err := http.NewRequest("GET", url, nil)
+		if err != nil {
+			return nil, err
+		}
+		req.Header.Set("Accept", accept)
+		req.Header.Set("User-Agent", userAgent)
+		resp, err := client.Do(req)
+		if err != nil {
+			lastErr = err
+			continue
+		}
+		if resp.StatusCode == http.StatusTooManyRequests || resp.StatusCode >= 500 {
+			resp.Body.Close()
+			lastErr = fmt.Errorf("svarte %s", resp.Status)
+			continue
+		}
+		return resp, nil
+	}
+	return nil, lastErr
 }
