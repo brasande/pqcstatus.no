@@ -10,7 +10,6 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"io"
 	"net"
 	"net/http"
 	"os"
@@ -107,7 +106,7 @@ func runScan(args []string) error {
 		go func() {
 			defer wg.Done()
 			for i := range jobs {
-				results[i] = s.scanWithRetry(targets[i])
+				results[i] = s.scan(targets[i])
 				if n := done.Add(1); n%100 == 0 {
 					fmt.Printf("%d/%d skannet (%s)\n", n, len(targets), time.Since(start).Round(time.Second))
 				}
@@ -217,59 +216,57 @@ func writeCSV(path string, results []Result) error {
 	return w.Error()
 }
 
-func (s *scanner) scanWithRetry(t Target) Result {
-	r := s.scan(t)
-	if r.Status == StatusError {
-		time.Sleep(5 * time.Second)
-		r = s.scan(t)
-	}
-	return r
-}
-
+// scan gjør én HTTPS-forespørsel mot verten, uten å følge videresendinger.
+// Svaret gir TLS-versjon, valgt nøkkelutveksling, sertifikat og headere.
+// Klienten tilbyr X25519MLKEM768 og X25519 slik nettlesere gjør, så statusen
+// viser hva besøkende faktisk får. Bare hvis https feiler, sendes én
+// forespørsel over http for å skille "uten HTTPS" fra "utilgjengelig".
 func (s *scanner) scan(t Target) Result {
 	r := Result{Host: t.Host, Category: t.Category, Orgs: t.Orgs, Status: StatusError}
+	host := t.Host
 
-	final, err := s.probeHTTP(t.Host, &r)
+	resp, err := s.fetch("https://" + host + "/")
 	if err != nil {
-		r.Error = shortErr(err)
-		return r
-	}
-	if final == "" { // svarer kun på http
-		r.Status = StatusNoHTTPS
-		return r
-	}
-	if final != t.Host {
-		r.FinalHost = final
+		plain, perr := s.fetch("http://" + host + "/")
+		if perr != nil {
+			r.Error = shortErr(err)
+			return r
+		}
+		target := httpsRedirect(plain)
+		switch {
+		case target == "":
+			r.CDN = detectCDN(plain.Header)
+			r.Status = StatusNoHTTPS
+			return r
+		case target == host: // sender til https, men https virker ikke
+			r.Error = shortErr(err)
+			return r
+		}
+		// http://x.no sender videre til https://www.x.no: mål den verten i stedet.
+		if resp, err = s.fetch("https://" + target + "/"); err != nil {
+			r.Error = shortErr(err)
+			return r
+		}
+		host, r.FinalHost = target, target
 	}
 
-	// 1. Vanlig handshake: samler TLS-versjon, sertifikat og valgt gruppe.
-	st, err := s.handshake(final, nil, 0)
-	if err != nil {
-		r.Error = shortErr(err)
-		return r
-	}
+	st := resp.TLS
+	r.CDN = detectCDN(resp.Header)
+	r.HSTS = resp.Header.Get("Strict-Transport-Security") != ""
 	r.TLSVersion = tls.VersionName(st.Version)
 	r.Cipher = tls.CipherSuiteName(st.CipherSuite)
 	if st.CurveID != 0 {
 		r.Group = st.CurveID.String()
 	}
-	describeCert(&r, final, st.PeerCertificates)
+	describeCert(&r, host, st.PeerCertificates)
 
-	if st.Version < tls.VersionTLS13 {
+	switch {
+	case st.Version < tls.VersionTLS13:
 		r.Status = StatusLegacy
-		return r
-	}
-	if isPQ(st.CurveID) {
+	case isPQ(st.CurveID):
 		r.Status = StatusPQC
-		return r
-	}
-
-	// 2. Streng sjekk: tilby kun hybrid ML-KEM. Lykkes handshaken, støtter
-	// serveren PQC selv om den foretrakk en klassisk gruppe over.
-	r.Status = StatusTLS13
-	if pq, err := s.handshake(final, []tls.CurveID{tls.X25519MLKEM768}, tls.VersionTLS13); err == nil && isPQ(pq.CurveID) {
-		r.Status = StatusPQC
-		r.Group = pq.CurveID.String()
+	default:
+		r.Status = StatusTLS13
 	}
 	return r
 }
@@ -291,82 +288,47 @@ var allCipherSuites = func() []uint16 {
 	return ids
 }()
 
-func (s *scanner) tlsConfig(host string) *tls.Config {
-	return &tls.Config{
-		ServerName:         host,
-		InsecureSkipVerify: true, // sertifikatet verifiseres separat i describeCert
-		MinVersion:         tls.VersionTLS10,
-		CipherSuites:       allCipherSuites,
-	}
-}
-
-func (s *scanner) handshake(host string, groups []tls.CurveID, minVersion uint16) (tls.ConnectionState, error) {
-	cfg := s.tlsConfig(host)
-	if groups != nil {
-		cfg.CurvePreferences = groups
-	}
-	if minVersion != 0 {
-		cfg.MinVersion = minVersion
-	}
-	conn, err := tls.DialWithDialer(&net.Dialer{Timeout: s.timeout}, "tcp", net.JoinHostPort(host, "443"), cfg)
-	if err != nil {
-		return tls.ConnectionState{}, err
-	}
-	defer conn.Close()
-	return conn.ConnectionState(), nil
-}
-
-// probeHTTP følger videresendinger og returnerer vertsnavnet der nettstedet
-// faktisk ligger over https. Tom streng betyr at nettstedet kun svarer på http.
-func (s *scanner) probeHTTP(host string, r *Result) (string, error) {
+// fetch gjør én GET-forespørsel uten å følge videresendinger og uten å lese
+// innholdet på siden.
+func (s *scanner) fetch(url string) (*http.Response, error) {
 	tr := &http.Transport{
-		Proxy:                 nil,
-		DialContext:           (&net.Dialer{Timeout: s.timeout}).DialContext,
-		TLSClientConfig:       s.tlsConfig(""),
+		Proxy:       nil,
+		DialContext: (&net.Dialer{Timeout: s.timeout}).DialContext,
+		TLSClientConfig: &tls.Config{
+			InsecureSkipVerify: true, // sertifikatet verifiseres separat i describeCert
+			MinVersion:         tls.VersionTLS10,
+			CipherSuites:       allCipherSuites,
+		},
 		TLSHandshakeTimeout:   s.timeout,
 		ResponseHeaderTimeout: 2 * s.timeout,
 		DisableKeepAlives:     true,
 	}
 	defer tr.CloseIdleConnections()
 	client := &http.Client{
-		Transport: tr,
-		Timeout:   4 * s.timeout,
-		CheckRedirect: func(req *http.Request, via []*http.Request) error {
-			if len(via) >= 10 {
-				return errors.New("for mange videresendinger")
-			}
-			return nil
-		},
+		Transport:     tr,
+		Timeout:       3 * s.timeout,
+		CheckRedirect: func(*http.Request, []*http.Request) error { return http.ErrUseLastResponse },
 	}
-	get := func(url string) (*http.Response, error) {
-		req, err := http.NewRequest("GET", url, nil)
-		if err != nil {
-			return nil, err
-		}
-		req.Header.Set("User-Agent", s.userAgent)
-		resp, err := client.Do(req)
-		if err != nil {
-			return nil, err
-		}
-		io.Copy(io.Discard, io.LimitReader(resp.Body, 64<<10))
-		resp.Body.Close()
-		return resp, nil
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		return nil, err
 	}
+	req.Header.Set("User-Agent", s.userAgent)
+	resp, err := client.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	resp.Body.Close()
+	return resp, nil
+}
 
-	resp, httpsErr := get("https://" + host + "/")
-	if httpsErr != nil {
-		var err error
-		resp, err = get("http://" + host + "/")
-		if err != nil {
-			return "", httpsErr
-		}
+// httpsRedirect returnerer verten et http-svar sender videre til over https.
+func httpsRedirect(resp *http.Response) string {
+	loc, err := resp.Location()
+	if err != nil || resp.StatusCode < 300 || resp.StatusCode >= 400 || loc.Scheme != "https" {
+		return ""
 	}
-	r.CDN = detectCDN(resp.Header)
-	if resp.Request.URL.Scheme != "https" {
-		return "", nil
-	}
-	r.HSTS = resp.Header.Get("Strict-Transport-Security") != ""
-	return resp.Request.URL.Hostname(), nil
+	return strings.ToLower(loc.Hostname())
 }
 
 func describeCert(r *Result, host string, chain []*x509.Certificate) {
@@ -435,3 +397,4 @@ func shortErr(err error) string {
 	}
 	return msg
 }
+

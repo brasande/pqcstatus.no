@@ -17,9 +17,10 @@ Daglig oversikt over hvilke offentlige nettsider i Norge som støtter post-kvant
    Virksomheter som deler nettsted slås sammen, og det samme gjør `x.no` og `www.x.no`.
    Verter som skal holdes utenfor, legges i `data/exclude-domains.txt`.
 2. **`kvantesjekk scan`** sjekker hvert nettsted:
-   - følger videresendinger fra `https://vert/` (eller `http://`) til endelig vert
-   - gjør en vanlig TLS-handshake og registrerer versjon, gruppe, chiffer, sertifikat, HSTS og CDN
-   - gjør så en handshake som **kun** tilbyr `X25519MLKEM768`. Lykkes den, settes status `pqc`
+   - sender **én** GET til `https://vert/` uten å følge videresendinger, og tilbyr `X25519MLKEM768` og `X25519`
+     slik nettlesere gjør. Velger serveren ML-KEM, settes status `pqc`
+   - registrerer TLS-versjon, gruppe, chiffer, sertifikat, HSTS og CDN fra samme svar
+   - bare hvis https feiler, sendes én forespørsel over http for å skille «uten HTTPS» fra «utilgjengelig»
    - skriver `site/data/latest.json`, `latest.csv`, `history.json` og et kompakt arkiv i `data/archive/`
 3. **`site/`** er en statisk nettside som leser disse filene.
 

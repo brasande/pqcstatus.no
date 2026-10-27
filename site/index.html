@@ -156,9 +156,9 @@
           </details>
           <details>
             <summary>Hvordan måler dere?</summary>
-            <p>Vi følger videresendinger til nettstedet brukeren faktisk havner på. Der gjør vi først en vanlig
-              TLS-handshake og deretter en handshake der vi <em>bare</em> tilbyr hybrid ML-KEM. Lykkes den, støtter
-              serveren post-kvante nøkkelutveksling. Hver vert får to til tre tilkoblinger i døgnet.</p>
+            <p>Én gang i døgnet sender vi <em>én</em> vanlig forespørsel til forsiden, akkurat som en nettleser. Vi tilbyr
+              hybrid ML-KEM og klassisk nøkkelutveksling, og ser hva serveren velger. Det er det samme besøkende får.
+              Forespørselen er merket med <code>KvanteSjekk</code> og lenke til prosjektet.</p>
           </details>
           <details>
             <summary>Hva måles ikke?</summary>
