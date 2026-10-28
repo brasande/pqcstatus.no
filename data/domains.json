@@ -12591,11 +12591,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "986257543",
+        "orgnr": "876990792",
         "name": "BERG SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "TRONDHEIM",
+        "municipality": "LARVIK",
         "source": "brreg"
       },
       {
@@ -15474,12 +15474,12 @@
     "category": "stat",
     "orgs": [
       {
-        "name": "Klagenemndssekretariatet",
+        "name": "Energiklagenemnda",
         "orgForm": "",
         "sector": "6100",
         "municipality": "OSLO",
         "source": "wikidata",
-        "parent": "NÆRINGS- OG FISKERIDEPARTEMENTET"
+        "parent": "ENERGIDEPARTEMENTET"
       },
       {
         "orgnr": "918195548",
