@@ -137,7 +137,7 @@ okrev.no,,ØSTRE VIKEN KOMMUNEREVISJON IKS,987952423,kommunal-annen,pqc,2026-10-
 oksnes.kirken.no,,ØKSNES SOKN,977000904,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 orkland.kommune.no,,ORKLAND KOMMUNE,921233418,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-25,true,true,,
 orklandbadet.no,,ORKLANDBADET KF,919460326,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-11-20,true,true,,
-orland.kommune.no,,ØRLAND KOMMUNE,921806027,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-06,true,false,,
+orland.kommune.no,,ØRLAND KOMMUNE,921806027,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 orlandlufthavn.no,,Ørland lufthavn,,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-19,true,false,Cloudflare,
 orskog.kyrkjelyd.no,,ØRSKOG SOKN,976997212,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-05,true,false,,
 os.kommune.no,,OS KOMMUNE,943464723,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-24,true,false,,
@@ -161,7 +161,7 @@ sb-iks.no,,SETESDAL BRANNVESEN IKS,887932492,kommunal-annen,tls13,2026-10-27,TLS
 sem.menighet.no,,SEM SOKN,976990579,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-02,true,false,,
 septentrio.uit.no,,Nordlit,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,ECDSA-P-256,Hellenic Academic and Research Institutions CA,2027-04-14,true,true,,
 sgp.norgov.no,,STATENS GRADERTE PLATTFORMTJENESTER,933489965,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-15,true,true,,
-sintef.no,,SINTEF,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-11-30,true,false,Cloudflare,
+sintef.no,,SINTEF,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-28,true,false,Cloudflare,
 skm.stat.no,,SIVIL KLARERINGSMYNDIGHET,918929673,stat,tls13,2026-10-27,TLS 1.3,CurveP521,TLS_AES_256_GCM_SHA384,RSA-2048,DigiCert Inc,2027-03-28,true,false,,
 skodje.kyrkjelyd.no,,SKODJE SOKN,976997301,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-05,true,false,,
 slottet.no,,DD.KK.HH. KRONPRINSEN OG KRONPRINSESSENS STAB,984197780,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-03-15,false,false,,
@@ -182,7 +182,7 @@ tanangermenighet.no,,TANANGER SOKN,976993683,kirke,error,2026-10-27,,,,,,,false,
 tasta.menighet.no,,TASTA SOKN,974789469,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-12,true,false,,
 telemarkfylke.no,,TELEMARK FYLKESKOMMUNE,929882989,fylkeskommune,legacy,2026-10-27,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-26,true,false,,
 telemarkmuseum.no,,"FRØKEN HENRIETTE HOMANNS LEGAT, BERG-KRAGERØ MUSEUM STI",971492406,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-22,true,true,,
-temakart.nve.no,,NVE Temakart,,stat,legacy,2026-10-27,TLS 1.2,X25519,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-2048,GlobalSign nv-sa,2027-03-30,true,false,,
+temakart.nve.no,,NVE Temakart,,stat,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,GlobalSign nv-sa,2027-05-10,true,false,,
 timekyrkja.no,,TIME SOKN,976993608,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,ECDSA-P-256,Let's Encrypt,2026-12-05,true,false,,
 timekyrkjene.no,,TIME KYRKJELEGE FELLESRÅD,976993616,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,ECDSA-P-256,Let's Encrypt,2026-12-30,true,false,,
 tolga.kirken.no,,TOLGA KIRKELIGE FELLESRÅD,976988442,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
@@ -200,12 +200,12 @@ ukm.no,,UKM NORGE TRØNDELAG FKF,981656172,kommunal-annen,pqc,2026-10-27,TLS 1.3
 ullensvang.kommune.no,,ULLENSVANG KOMMUNE,920500633,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-17,true,false,Azure Front Door,
 ung.no,,ung.no (Bufdir),986128433,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-06,true,false,,
 uso.no,,Universitetets symfoniorkester Oslo,,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-28,true,false,,
-utdanning.no,,Utdanning.no,,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,ZeroSSL GmbH,2026-12-05,true,true,,
+utdanning.no,,Utdanning.no,,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,ZeroSSL GmbH,2027-01-27,true,true,,
 utdanningsetaten.oslo.kommune.no,,OSLO KOMMUNE UTDANNINGSETATEN,976820037,kommunal-annen,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 valdresbrannvesen.no,,VALDRES BRANN- OG REDNINGSTJENESTE IKS,920213820,kommunal-annen,tls13,2026-10-27,TLS 1.3,CurveP384,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-28,true,false,,
 valgresultat.no,,Valgdirektoratet,,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-4096,GlobalSign nv-sa,2027-04-09,true,true,,
 vardeneset-menighet.no,,VARDENESET SOKN,985235600,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-12,true,false,,
-vava.no,,VANNASSISTANSEN I VESTRE AGDER KOMMUNALT OPPGAVEFELLESKAP (VAVA),897755912,kommunal-annen,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-11-28,true,false,,
+vava.no,,VANNASSISTANSEN I VESTRE AGDER KOMMUNALT OPPGAVEFELLESKAP (VAVA),897755912,kommunal-annen,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-27,true,false,,
 vegarshei.kirken.no,,VEGÅRSHEI SOKN,976992164,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 vestfoldfylke.no,,VESTFOLD FYLKESKOMMUNE,929882385,fylkeskommune,legacy,2026-10-27,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-26,true,false,,
 vestfoldmuseene.no,,VESTFOLDMUSEENE IKS,993871184,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-14,true,true,Cloudflare,
@@ -222,7 +222,7 @@ vtrevisjon.no,,VESTFOLD OG TELEMARK REVISJON IKS,923822410,kommunal-annen,tls13,
 www.110-sentralen.no,,MØRE OG ROMSDAL 110-SENTRAL ÅLESUND KF,988380504,kommunal-annen,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-21,true,false,,
 www.110agder.no,,110 AGDER IKS,830301402,kommunal-annen,tls13,2026-10-27,TLS 1.3,CurveP384,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-01,true,false,,
 www.22julisenteret.no,,22. juli-senteret,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-11,true,true,,
-www.aal.kommune.no,,ÅL KOMMUNE,864952992,kommune,nohttps,2026-10-29,,,,,,,false,false,,
+www.aal.kommune.no,,ÅL KOMMUNE,864952992,kommune,legacy,2026-10-30,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-11,true,false,,
 www.aal.kyrkja.no,,LEVELD SOKN,976990005,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.aama.no,,AUST-AGDER MUSEUM OG ARKIV IKS,986088695,kommunal-annen,legacy,2026-10-27,TLS 1.2,X25519,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-27,true,false,,
 www.aasanemenighet.no,,ÅSANE SOKN,971348232,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-17,true,false,,
@@ -258,7 +258,7 @@ www.arena.larvik.no,,LARVIK ARENA IKS,992910356,kommunal-annen,pqc,2026-10-27,TL
 www.arendal.kirken.no,,ARENDAL KIRKELIGE FELLESRÅD,976992148,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,false,,
 www.arendal.kommune.no,,ARENDAL KOMMUNE,940493021,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-26,true,false,Azure Front Door,
 www.ariks.no,,SØRLANDET KOMMUNEREVISJON IKS,971328452,kommunal-annen,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-20,true,false,,
-www.arkivsentersor.no,,ARKIVSENTER SØR IKS,971531673,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-11-29,true,true,Cloudflare,
+www.arkivsentersor.no,,ARKIVSENTER SØR IKS,971531673,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-28,true,true,Cloudflare,
 www.arkivtroms.no,,INTERKOMMUNALT ARKIV TROMS IKS,989532960,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-08,true,true,,
 www.arran.no,,ÁRRAN JULEVSÁME GUOVDÁSJ AS,932762722,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,ECDSA-P-384,Let's Encrypt,2026-12-02,true,true,,
 www.artsobservasjoner.no,,Artsobservasjoner,,stat,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-2048,GlobalSign nv-sa,2027-01-16,true,false,,
@@ -524,13 +524,13 @@ www.givas.no,,GIVAS IKS,989016245,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519
 www.gjemnes.kommune.no,,GJEMNES KOMMUNE,964981426,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
 www.gjenopptakelse.no,,KOMMISJONEN FOR GJENOPPTAKELSE AV STRAFFESAKER,985847215,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-16,true,true,,
 www.gjerdrum.kommune.no,,GJERDRUM KOMMUNE,864949762,kommune,legacy,2026-10-27,TLS 1.2,,TLS_RSA_WITH_AES_256_GCM_SHA384,RSA-2048,Sectigo Limited,2026-12-12,true,false,,
-www.gjerstad.kommune.no,,GJERSTAD KOMMUNE,964964998,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-06,true,false,Azure Front Door,
+www.gjerstad.kommune.no,,GJERSTAD KOMMUNE,964964998,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,Azure Front Door,
 www.gjesdal.kirken.no,,GJESDAL SOKN,976993632,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
 www.gjesdal.kommune.no,,GJESDAL KOMMUNE,964978573,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
 www.gjesdal.menigheter.no,,GJESDAL KIRKELIGE FELLESRÅD,976993659,kirke,error,2026-10-27,,,,,,,false,false,,DNS: no such host
 www.gjovik.kirken.no,,BIRI SOKN,976988663,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-01,true,true,Cloudflare,
 www.gjovik.kommune.no,,GJØVIK KOMMUNE,940155223,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
-www.glitre.no,,GLITREVANNVERKET IKS,971034637,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-27,true,false,,
+www.glitre.no,,GLITREVANNVERKET IKS,971034637,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-27,true,false,,
 www.glomdal.museum.no,,STIFTELSEN GLOMDALSMUSEET,991516956,kommunal-annen,nohttps,2026-10-27,,,,,,,false,false,,
 www.gloppen.kommune.no,,GLOPPEN KOMMUNE,964969124,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.gloppen.kyrkja.no,,BREIM SOKN,976996682,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
@@ -548,7 +548,7 @@ www.grensekom.no,,Grensekommissariatet for den norsk-russiske grense,,stat,error
 www.grimkirke.no,,GRIM SOKN,976992547,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-27,true,false,,
 www.grimstad.kirken.no,,EIDE SOKN,976992024,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-31,true,true,Cloudflare,
 www.grimstad.kommune.no,,GRIMSTAD KOMMUNE,864964702,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-13,true,false,Azure Front Door,
-www.grodemkirke.no,,GRØDEM SOKN,988835714,kirke,tls13,2026-10-27,TLS 1.3,CurveP384,TLS_AES_256_GCM_SHA384,RSA-4096,Let's Encrypt,2026-11-11,true,false,,
+www.grodemkirke.no,,GRØDEM SOKN,988835714,kirke,tls13,2026-10-27,TLS 1.3,CurveP384,TLS_AES_256_GCM_SHA384,RSA-4096,Let's Encrypt,2027-01-27,true,false,,
 www.grong.kommune.no,,GRONG KOMMUNE,940010853,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
 www.grue.kommune.no,,GRUE KOMMUNE,964948143,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_128_GCM_SHA256,RSA-2048,GlobalSign nv-sa,2027-03-16,true,true,,
 www.grytten-prestegjeld.no,,GRYTTEN SOKN,976997484,kirke,error,2026-10-27,,,,,,,false,false,,DNS: no such host
@@ -639,7 +639,7 @@ www.hjelmeland.kyrkja.no,,FISTER SOKN,976993772,kirke,tls13,2026-10-27,TLS 1.3,X
 www.hkdir.no,,DIREKTORATET FOR HØYERE UTDANNING OG KOMPETANSE,974788985,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-07,true,false,,
 www.hnt.no,,HELSE NORD-TRØNDELAG HF,983974791,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-21,true,true,Cloudflare,
 www.hol-fjellstyre.no,,HOL FJELLSTYRE,975585786,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-22,true,true,,
-www.hol.kommune.no,,HOL KOMMUNE,944889116,kommune,error,2026-10-29,,,,,,,false,false,,tidsavbrudd
+www.hol.kommune.no,,HOL KOMMUNE,944889116,kommune,legacy,2026-10-30,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-11,true,false,,
 www.hole.kommune.no,,HOLE KOMMUNE,960010833,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-23,true,true,,
 www.hollaoghelgen.no,,HOLLA OG HELGEN SOKN,976991524,kirke,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-03,true,true,,
 www.holmenkirke.no,,HOLMEN SOKN,971522437,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-14,true,false,,
@@ -671,7 +671,7 @@ www.ihrevisjon.no,,INDRE HORDALAND REVISJONSDISTRIKT,971543124,kommunal-annen,er
 www.ika-trondelag.no,,INTERKOMMUNALT ARKIV TRØNDELAG IKS,971375965,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-11-30,true,false,,
 www.ikaf.no,,IKA FINNMARK IKS,996878996,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-18,true,false,,
 www.ikah.no,,INTERKOMMUNALT ARKIV I HORDALAND IKS,971348496,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-12,true,true,,
-www.ikakongsberg.no,,INTERKOMMUNALT ARKIV FOR BUSKERUD VESTFOLD OG TELEMARK IKS,971309040,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-13,true,false,,
+www.ikakongsberg.no,,INTERKOMMUNALT ARKIV FOR BUSKERUD VESTFOLD OG TELEMARK IKS,971309040,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-27,true,false,,
 www.ikamr.no,,INTERKOMMUNALT ARKIV FOR MØRE OG ROMSDAL IKS,982330459,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-26,true,true,,
 www.ikarogaland.no,,INTERKOMMUNALT ARKIV I ROGALAND IKS,974247488,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,GoGetSSL,2027-02-28,true,false,,
 www.ikskolen.no,,INTERKOMMUNAL MUSIKK OG KULTURSKULE FOR ÅSERAL AUDNEDAL OG HÆGEBOSTAD,987785667,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Google Trust Services,2026-12-11,true,false,,
@@ -705,13 +705,13 @@ www.johannes-menighet.no,,ST. JOHANNES SOKN,976993241,kirke,tls13,2026-10-27,TLS
 www.justervesenet.no,,JUSTERVESENET,874761192,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-19,true,true,,
 www.justismuseet.no,,"STIFTELSEN JUSTISMUSEET NASJONALT MUSEUM FOR POLITI, RETTSVESEN OG KRIMINALOMSORG",982710995,stat,tls13,2026-10-27,TLS 1.3,CurveP384,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-20,true,false,,
 www.k-sek.no,,K-SEKRETARIATET IKS,988064920,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-16,true,false,,
-www.kafjord.kommune.no,,GAIVUONA SUOHKAN KÅFJORD KOMMUNE KAIVUONON KOMUUNI,940363586,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-11-27,true,false,,
+www.kafjord.kommune.no,,GAIVUONA SUOHKAN KÅFJORD KOMMUNE KAIVUONON KOMUUNI,940363586,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-28,true,false,,
 www.kampenmenighet.no,,KAMPEN SOKN,976993306,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-12,true,false,,
 www.kao.oslo.kommune.no,,OSLO KOMMUNE KOMMUNEADVOKATEN,976819942,kommunal-annen,nohttps,2026-10-27,,,,,,,false,false,CloudFront,
 www.karasjok.kommune.no,,KARASJOGA GIELDA / KARASJOK KOMMUNE,963376030,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.karlsoy.kommune.no,,KARLSØY KOMMUNE,940330408,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-20,true,false,,
 www.karmoy.kommune.no,,KARMØY KOMMUNE,940791901,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-10,true,false,Azure Front Door,
-www.karmoykirken.no,,AVALDSNES SOKN,976994027,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-03,true,false,,
+www.karmoykirken.no,,AVALDSNES SOKN,976994027,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 www.kautokeino.kommune.no,,GUOVDAGEAINNU SUOHKAN / KAUTOKEINO KOMMUNE,945475056,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.kbr.no,,KRISTIANSANDSREGIONEN BRANN OG REDNING IKS,993470244,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-21,true,false,,
 www.kdir.no,,Klareringsdirektoratet,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,osl-cl1-web-frontend-102.no1.essentialhosting.local,2036-05-15,false,false,,
@@ -727,14 +727,14 @@ www.kirken-hurum.no,,HURUM KIRKELIGE FELLESRÅD,976990358,kirke,pqc,2026-10-27,T
 www.kirken-ringsaker.no,,BRUMUNDDAL/VELDRE SOKN,976987748,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
 www.kirken.amot.no,,DESET SOKN,976988213,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-18,true,false,,
 www.kirken.beiarn.no,,BEIARN SOKN,977000386,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-23,true,false,,
-www.kirken.hammerfest.no,,HAMMERFEST KIRKELIGE FELLESRÅD,976999177,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-03,true,false,,
+www.kirken.hammerfest.no,,HAMMERFEST KIRKELIGE FELLESRÅD,976999177,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 www.kirken.loppa.no,,LOPPA SOKN,977001609,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.kirken.lunner.no,,GRUA/HARESTUA SOKN,876989182,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-24,true,false,,
 www.kirken.namdal.no,,FLATANGER SOKN,976999673,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-22,true,false,,
 www.kirken.nannestad.no,,BJØRKE SOKN,976986938,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-07,true,false,,
 www.kirken.no,,Den norske kirke,818066872,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-22,true,true,Cloudflare,
 www.kirken.nordkapp.no,,NORDKAPP SOKN,977001706,kirke,legacy,2026-10-27,TLS 1.2,X25519,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-2048,Sectigo Limited,2026-11-26,false,false,,
-www.kirken.sor-fron.no,,SØR-FRON SOKN,976988922,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-03,true,false,,
+www.kirken.sor-fron.no,,SØR-FRON SOKN,976988922,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 www.kirken.stavanger.no,,HUNDVÅG SOKN,876993392,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-12,true,false,,
 www.kirken.tinn.no,,RJUKAN SOKN,976991621,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-20,true,false,,
 www.kirken.tromso.no,,ELVERHØY SOKN,977001099,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-10,true,false,,
@@ -756,7 +756,7 @@ www.kokelvkirke.no,,KOKELV SOKN,977001633,kirke,error,2026-10-27,,,,,,,false,fal
 www.kolumbus.no,,KOLUMBUS AS,914749360,kommunal-annen,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,RSA-2048,Let's Encrypt,2027-01-27,true,true,,
 www.kompetansenorge.no,,Kompetanse Norge,,stat,tls13,2026-10-27,TLS 1.3,CurveP384,TLS_AES_256_GCM_SHA384,RSA-4096,Hellenic Academic and Research Institutions CA,2026-12-10,true,false,,
 www.komrevnord.no,,KOMREV NORD IKS,986574689,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-26,true,false,,
-www.konfliktraadet.no,,KONFLIKTRÅDET,986074465,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,ECDSA-P-256,Let's Encrypt,2026-12-13,true,true,,
+www.konfliktraadet.no,,KONFLIKTRÅDET,986074465,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,ECDSA-P-256,Let's Encrypt,2027-01-28,true,true,,
 www.kongehuset.no,,DET KONGELIGE HOFF,971524545,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-21,true,false,,
 www.kongsberg.kirken.no,,HEDENSTAD SOKN,976989775,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.kongsberg.kommune.no,,KONGSBERG KOMMUNE,942402465,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
@@ -774,7 +774,7 @@ www.koro.no,,KUNST I OFFENTLIGE ROM KORO,974778998,stat,error,2026-10-27,,,,,,,f
 www.kraftmuseet.no,,KRAFTMUSEET - NORSK VASSKRAFT- OG INDUSTRISTADMUSEUM STI,971356944,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-04,true,true,,
 www.kragero.kommune.no,,KRAGERØ KOMMUNE,963946902,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.kragerokirkene.no,,HELLE SOKN,994209531,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-22,true,false,,
-www.kriminalomsorgen.no,,Kriminalomsorgen,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-11-26,true,true,,
+www.kriminalomsorgen.no,,Kriminalomsorgen,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-27,true,true,,
 www.krisesenteretitelemark.no,,SKIEN KOMMUNE - KRISESENTERET I TELEMARK,982053242,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,DigiCert Inc,2027-01-19,true,false,,
 www.krisesenteretmolde.no,,KRISESENTERET FOR MOLDE OG OMEGN IKS,992209410,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-4096,Let's Encrypt,2026-12-14,true,false,,
 www.kristiansand.kirken.no,,KRISTIANSAND KIRKELIG FELLESRÅD,876992612,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-21,true,false,,
@@ -840,7 +840,7 @@ www.lillestrom.kommune.no,,LILLESTRØM KOMMUNE,820710592,kommune,tls13,2026-10-2
 www.lindas.kyrkja.no,,MYKING SOKN,976995511,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.lindesnes.kirken.no,,LINDESNES SOKN,976992970,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-31,true,true,Cloudflare,
 www.lindesnes.kommune.no,,LINDESNES KOMMUNE,921060440,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-18,true,false,Azure Front Door,
-www.listamenighet.no,,LISTA SOKN,976992709,kirke,tls13,2026-10-28,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-10,true,false,,
+www.listamenighet.no,,LISTA SOKN,976992709,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.listerfriluft.no,,LISTER FRILUFTSRÅD KOMMUNALT OPPGAVEFELLESSKAP,990333394,kommunal-annen,nohttps,2026-10-27,,,,,,,false,false,,
 www.lodingen.kommune.no,,LØDINGEN KOMMUNE,945468661,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.lofotakvariet.no,,SKREI EIENDOM AS,947790870,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-07,true,false,,
@@ -856,7 +856,7 @@ www.lorenskog.kommune.no,,LØRENSKOG KOMMUNE,842566142,kommune,tls13,2026-10-27,
 www.loten.kommune.no,,LØTEN KOMMUNE,964950679,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_128_GCM_SHA256,RSA-2048,GlobalSign nv-sa,2027-03-16,true,true,,
 www.lottstift.no,,LOTTERI-  OG STIFTELSESTILSYNET,982391490,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,ECDSA-P-256,Let's Encrypt,2027-01-24,true,true,,
 www.luftambulanse.no,,LUFTAMBULANSETJENESTEN HF,818711832,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-16,true,true,Cloudflare,
-www.luftfart.museum.no,,NORSK LUFTFARTSMUSEUM STI,975693368,stat,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.luftfart.museum.no,,NORSK LUFTFARTSMUSEUM STI,975693368,stat,pqc,2026-10-30,TLS 1.3,X25519MLKEM768,TLS_CHACHA20_POLY1305_SHA256,RSA-2048,Let's Encrypt,2026-12-22,false,false,,
 www.luftfartstilsynet.no,,LUFTFARTSTILSYNET,981105516,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-10,true,true,Cloudflare,
 www.lund.kirken.no,,HESKESTAD SOKN,976993470,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
 www.lund.kommune.no,,LUND KOMMUNE,964966486,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-04,true,true,,
@@ -870,9 +870,9 @@ www.luster.kommune.no,,LUSTER KOMMUNE,964968241,kommune,pqc,2026-10-27,TLS 1.3,X
 www.luster.kyrkja.no,,DALE SOKN,976996194,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-25,true,false,,
 www.lustrabadet.no,,LUSTRABADET KF,997392388,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-08,true,true,,
 www.lybskole.no,,Longyearbyen skole,,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,GoDaddy.com,2027-04-28,false,false,,
-www.lyngdal.kirken.no,,AUSTAD SOKN,976992997,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
+www.lyngdal.kirken.no,,AUSTAD SOKN,976992997,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.lyngdal.kommune.no,,LYNGDAL KOMMUNE,922421498,kommune,legacy,2026-10-27,TLS 1.2,X25519,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-10,true,false,,
-www.lyngen.kirken.no,,LYNGEN SOKN,977001471,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
+www.lyngen.kirken.no,,LYNGEN SOKN,977001471,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.lyngen.kommune.no,,LYNGEN KOMMUNE IVGU SUOHKAN YYKEÄN KUNTA,840014932,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-27,true,true,,
 www.maihaugen.no,,STIFTELSEN LILLEHAMMER MUSEUM,955378024,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-02,true,false,,
 www.malselv.kommune.no,,MÅLSELV KOMMUNE,972418005,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
@@ -944,14 +944,14 @@ www.naturindeks.no,,Naturindeks for Norge,,stat,legacy,2026-10-27,TLS 1.2,X25519
 www.nav.no,,ARBEIDS- OG VELFERDSETATEN,889640782,stat,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,RSA-2048,Sectigo Limited,2027-02-24,true,true,,
 www.nb.no,,NASJONALBIBLIOTEKET,976029100,stat,legacy,2026-10-27,TLS 1.2,X25519,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-2048,Hellenic Academic and Research Institutions CA,2027-04-12,true,true,,
 www.nedreeikerkirken.no,,NEDRE EIKER SOKN,974762331,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-04,true,false,,
-www.nensetkirke.no,,GIMSØY OG NENSET SOKN,976991249,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-14,true,false,,
+www.nensetkirke.no,,GIMSØY OG NENSET SOKN,976991249,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.nes.kommune.no,,NES KOMMUNE,938679088,kommune,legacy,2026-10-27,TLS 1.2,,TLS_RSA_WITH_AES_256_GCM_SHA384,RSA-2048,DigiCert Inc,2027-01-14,true,false,,
-www.nesbyen.kommune.no,,NESBYEN KOMMUNE,964951640,kommune,error,2026-10-29,,,,,,,false,false,,tidsavbrudd
+www.nesbyen.kommune.no,,NESBYEN KOMMUNE,964951640,kommune,legacy,2026-10-30,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-11,true,false,,
 www.neskirke.no,,NESBYEN SOKN,976989961,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-24,true,false,,
 www.nesna.kommune.no,,NESNA KOMMUNE,939600515,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
 www.nesodden.kirken.no,,GJØFJELL SOKN,876986272,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-03,true,true,Cloudflare,
 www.nesodden.kommune.no,,NESODDEN KOMMUNE,944383565,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-22,true,true,,
-www.nesseby.kommune.no,,UNJARGGA GIELDA / NESSEBY KOMMUNE,839953062,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-11-27,true,false,,
+www.nesseby.kommune.no,,UNJARGGA GIELDA / NESSEBY KOMMUNE,839953062,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-28,true,false,,
 www.nesset.kirken.no,,NESSET KIRKELIGE FELLESRÅD,876997622,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.nfi.no,,NORSK FILMINSTITUTT,892211442,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-01,true,true,Cloudflare,
 www.nfk.no,,NORDLAND FYLKESKOMMUNE,964982953,fylkeskommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
@@ -967,7 +967,7 @@ www.nidarosdomen.no,,NIDAROS DOMKIRKES RESTAURERINGSARBEIDER,938966397,stat,lega
 www.nidsenter.no,,NASJONALT ID-SENTER,996879828,stat,tls13,2026-10-27,TLS 1.3,CurveP521,TLS_AES_256_GCM_SHA384,RSA-2048,"GoDaddy.com, Inc.",2027-03-18,true,true,,
 www.nih.no,,NORGES IDRETTSHØGSKOLE,971526033,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_CHACHA20_POLY1305_SHA256,ECDSA-P-256,DigiCert Inc,2027-05-08,true,true,,
 www.nissedal.kommune.no,,NISSEDAL KOMMUNE,964964343,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-04,true,false,,
-www.nittedal.kirken.no,,HAKADAL SOKN,976986733,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-25,true,false,,
+www.nittedal.kirken.no,,HAKADAL SOKN,976986733,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.nittedal.kommune.no,,NITTEDAL KOMMUNE,971643870,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
 www.nkom.no,,NASJONAL KOMMUNIKASJONSMYNDIGHET,974446871,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,DigiCert Inc,2027-04-21,true,false,Azure Front Door,
 www.nkvts.no,,Nasjonalt kunnskapssenter om vold og traumatisk stress,,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-15,true,true,,
@@ -982,7 +982,7 @@ www.nomil.no,,NORDFJORD MILJØVERK IKS,977549833,kommunal-annen,tls13,2026-10-27
 www.norad.no,,DIREKTORATET FOR UTVIKLINGSSAMARBEID (NORAD),971277882,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-19,true,true,Cloudflare,
 www.norbr.no,,NORDMØRE OG ROMSDAL BRANN OG REDNING IKS,823730012,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-19,true,false,Azure Front Door,
 www.norceresearch.no,,NORCE Research AS,,stat,tls13,2026-10-27,TLS 1.3,CurveP521,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-05,true,true,,
-www.nord-aurdal.kommune.no,,NORD-AURDAL KOMMUNE,961381908,kommune,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
+www.nord-aurdal.kommune.no,,NORD-AURDAL KOMMUNE,961381908,kommune,error,2026-10-27,,,,,,,false,false,,read: connection reset by peer
 www.nord-fron.kirken.no,,KVAM SOKN,976988868,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-01,true,true,Cloudflare,
 www.nord-fron.kommune.no,,NORD-FRON KOMMUNE,839893132,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.nord-gudbrandsdal.no,,SEKRETARIATET FOR KONTROLLUTVALA I NORD-GUDBRANDSDAL - KOMMUNALT OPPGÅVEFELLESKAP,987607408,kommunal-annen,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
@@ -1000,14 +1000,14 @@ www.nordosterdalsmuseet.no,,NORDØSTERDALSMUSEET STI,971445726,kommunal-annen,no
 www.nordre-land.kommune.no,,NORDRE LAND KOMMUNE,861381722,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-09,true,false,,
 www.nordrefollo.kommune.no,,NORDRE FOLLO KOMMUNE,922092648,kommune,legacy,2026-10-27,TLS 1.2,X25519,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-10,true,false,,
 www.nordreisa.kommune.no,,NORDREISA KOMMUNE,943350833,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-384,Let's Encrypt,2026-12-22,true,true,,
-www.nordreisasokn.no,,NORDREISA SOKN,877001512,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-02,true,false,,
+www.nordreisasokn.no,,NORDREISA SOKN,877001512,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.nore-og-uvdal.kommune.no,,NORE OG UVDAL KOMMUNE,964950946,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
 www.nore.kirken.no,,NORE OG UVDAL KIRKELIGE FELLESRÅD,976990463,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.norec.no,,NORSK SENTER FOR UTVEKSLINGSSAMARBEID (NOREC),981965132,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-17,true,true,,
 www.norfund.no,,Norfund,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-17,true,true,Cloudflare,
 www.norges-bank.no,,Norges Bank,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-18,true,true,Cloudflare,
 www.norgeskart.no,,Norgeskart,,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-13,true,true,,
-www.norheimkirke.no,,NORHEIM SOKN,976993438,kirke,tls13,2026-10-28,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-03,true,false,,
+www.norheimkirke.no,,NORHEIM SOKN,976993438,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.norla.no,,"NORLA, STIFTELSE FOR NORSK LITTERATUR I UTLANDET",981242297,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-06,true,false,,
 www.norsk-jernbanemuseum.no,,NORSK JERNBANEMUSEUM,918147764,stat,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.norskbergverksmuseum.no,,NORSK BERGVERKSMUSEUM STI,977113490,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-19,true,true,,
@@ -1016,7 +1016,7 @@ www.norskfolkemuseum.no,,NORSK FOLKEMUSEUM STI,970010815,stat,tls13,2026-10-27,T
 www.noso.no,,ARKTISK FILHARMONI AS,994387693,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-17,true,false,,
 www.notodden.kirken.no,,GRANSHERAD SOKN,976991311,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.notodden.kommune.no,,NOTODDEN KOMMUNE,938583986,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
-www.novari.no,,NOVARI IKS,998283914,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-28,true,true,,
+www.novari.no,,NOVARI IKS,998283914,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-27,true,true,,
 www.npe.no,,NORSK PASIENTSKADEERSTATNING,984936923,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-20,true,false,,
 www.npolar.no,,Norsk Polarinstitutt,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-19,true,false,Cloudflare,
 www.nrbr.no,,NEDRE ROMERIKE BRANN- OG REDNINGSVESEN IKS,976634438,kommunal-annen,legacy,2026-10-27,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-14,true,true,,
@@ -1075,9 +1075,9 @@ www.partifinansiering.no,,partifinansiering.no,,stat,pqc,2026-10-27,TLS 1.3,X255
 www.patentstyret.no,,PATENTSTYRET,971526157,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-14,true,true,Fastly,
 www.pauluskirke.org,,PAULUS SOKN,976987225,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.phs.no,,POLITIHØGSKOLEN,974761017,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_CHACHA20_POLY1305_SHA256,ECDSA-P-256,Hellenic Academic and Research Institutions CA,2027-02-23,true,true,,
-www.plankontoret.net,,PLANMIDT KO,974780380,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-11-28,true,false,,
+www.plankontoret.net,,PLANMIDT KO,974780380,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-27,true,false,,
 www.politi.no,,AGDER POLITIDISTRIKT,983998275,stat,error,2026-10-27,,,,,,,false,false,,tilkobling avvist
-www.politiet.no,,Politiet,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-13,true,true,,
+www.politiet.no,,Politiet,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-28,true,true,,
 www.porsanger.kommune.no,,PORSANGER KOMMUNE,959411735,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-24,true,false,,
 www.porsgrunn.kirken.no,,EIDANGER SOKN,976991117,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.porsgrunn.kommune.no,,PORSGRUNN KOMMUNE,939991034,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,RSA-2048,GlobalSign nv-sa,2026-12-25,true,true,,
@@ -1089,7 +1089,7 @@ www.rade.kirken.no,,RÅDE SOKN,976986008,kirke,tls13,2026-10-29,TLS 1.3,X25519,T
 www.rade.kommune.no,,RÅDE KOMMUNE,940802652,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.radetfordyreetikk.no,,Rådet for dyreetikk,,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-4096,Let's Encrypt,2026-12-20,true,true,,
 www.rakkestad.kommune.no,,RAKKESTAD KOMMUNE,945372281,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-27,true,false,,
-www.ralingen.kirken.no,,RÆLINGEN KIRKELIGE FELLESRÅD,976986601,kirke,error,2026-10-29,,,,,,,false,false,,tidsavbrudd
+www.ralingen.kirken.no,,RÆLINGEN KIRKELIGE FELLESRÅD,976986601,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.ralingen.kommune.no,,RÆLINGEN KOMMUNE,952540556,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
 www.ramsasen.no,,RAMSÅS STATSALLMENNING,990945055,stat,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-22,true,false,,
 www.rana.kirken.no,,GRUBEN SOKN,977000181,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-09,true,false,,
@@ -1099,7 +1099,7 @@ www.randaberg.kommune.no,,RANDABERG KOMMUNE,934945514,kommune,tls13,2026-10-27,T
 www.randabergkirkene.no,,RANDABERG KIRKELIGE FELLESRÅD,976993705,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.randesund.no,,RANDESUND SOKN,876992582,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-02,true,false,,
 www.randsfjordmuseene.no,,RANDSFJORDMUSEET AS,987107022,kommunal-annen,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-26,true,false,,
-www.rauma.kirken.no,,EID OG HOLM SOKN,976997522,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.rauma.kirken.no,,EID OG HOLM SOKN,976997522,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.rauma.kommune.no,,RAUMA KOMMUNE,864980902,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-14,true,false,Azure Front Door,
 www.rdm.no,,RIDDODUOTTARMUSEAT STI,989999192,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-16,true,false,Cloudflare,
 www.re.kirken.no,,FON SOKN,976990846,kirke,nohttps,2026-10-28,,,,,,,false,false,,
@@ -1131,7 +1131,7 @@ www.riksteatret.no,,RIKSTEATRET,974907550,stat,legacy,2026-10-27,TLS 1.2,X25519,
 www.rindal.kirken.no,,RINDAL SOKN,975727777,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-18,true,false,,
 www.rindal.kommune.no,,RINDAL KOMMUNE,940138051,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-13,true,false,Azure Front Door,
 www.ringebu.kommune.no,,RINGEBU KOMMUNE,939864970,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
-www.ringerike.kirken.no,,HAUG SOKN,976989856,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-22,true,false,,
+www.ringerike.kirken.no,,HAUG SOKN,976989856,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.ringerike.kommune.no,,RINGERIKE KOMMUNE,940100925,kommune,tls13,2026-10-27,TLS 1.3,CurveP384,TLS_AES_256_GCM_SHA384,RSA-2048,DigiCert Inc,2027-03-06,true,true,,
 www.ringeriksbadet.no,,RINGERIKSBADET IKS,993822108,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-11,true,false,,
 www.ringsaker.kommune.no,,RINGSAKER KOMMUNE,864950582,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-13,true,false,,
@@ -1165,7 +1165,7 @@ www.sabhf.no,,Bærum sykehus,,stat,error,2026-10-27,,,,,,,false,false,,tidsavbru
 www.saemiensijte.no,,STIFTELSEN SAEMIEN SIJTE,989226487,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-06,true,false,Cloudflare,
 www.salangen.kommune.no,,SALANGEN KOMMUNE,961416388,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-31,true,false,,
 www.saltdal.kommune.no,,SALTDAL KOMMUNE,972417734,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-02,true,false,,
-www.saltdalkirken.no,,SALTDAL KIRKELIGE FELLESRÅD,977000416,kirke,tls13,2026-10-28,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-07,true,false,,
+www.saltdalkirken.no,,SALTDAL KIRKELIGE FELLESRÅD,977000416,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.saltdalutvikling.no,,SALTDAL UTVIKLING KF,915802699,kommunal-annen,tls13,2026-10-27,TLS 1.3,CurveP384,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-14,true,false,,
 www.salten.no,,SALTEN REGIONRÅD - KOMMUNALT OPPGAVEFELLESSKAP,992137258,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-12,true,true,,
 www.saltenbrann.no,,SALTEN BRANN IKS,990565325,kommunal-annen,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
@@ -1174,7 +1174,7 @@ www.samediggi.no,,SAMEDIGGI / SAMETINGET,974760347,stat,legacy,2026-10-27,TLS 1.
 www.samnanger.kommune.no,,SAMNANGER KOMMUNE,964968985,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
 www.samnanger.kyrkja.no,,SAMNANGER SOKN,976995147,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.sande.kommune.no,,SANDE KOMMUNE,822534422,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
-www.sandefjord.kirken.no,,ARNADAL SOKN,976990978,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.sandefjord.kirken.no,,ARNADAL SOKN,976990978,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.sandefjord.kommune.no,,SANDEFJORD KOMMUNE,916882807,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.sandnes.kommune.no,,SANDNES KOMMUNE,964965137,kommune,legacy,2026-10-27,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 www.sandnesstadion.no,,Sandnes stadion,,kommunal-annen,error,2026-10-27,,,,,,,false,false,,DNS: no such host
@@ -1188,21 +1188,21 @@ www.sel-fjellstyre.no,,SEL FJELLSTYRE STATSALMENNING,971301953,stat,legacy,2026-
 www.sel.kirken.no,,HEIDAL SOKN,976988884,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-02,true,true,Cloudflare,
 www.sel.kommune.no,,SEL KOMMUNE,939617671,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
 www.selbu.kommune.no,,SELBU KOMMUNE,971197609,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
-www.selbumenighet.no,,SELBU SOKN,976998995,kirke,error,2026-10-29,,,,,,,false,false,,tidsavbrudd
+www.selbumenighet.no,,SELBU SOKN,976998995,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-07,true,false,,
 www.seljord.kommune.no,,SELJORD KOMMUNE,964963738,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-16,true,false,,
-www.seljordkyrkje.no,,SELJORD KIRKELIGE FELLESRÅD,976991729,kirke,error,2026-10-29,,,,,,,false,false,,tidsavbrudd
+www.seljordkyrkje.no,,SELJORD KIRKELIGE FELLESRÅD,976991729,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-18,true,false,,
 www.senja-avfall.no,,SENJA AVFALL IKS,931004816,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-16,true,false,,
-www.senja.kirken.no,,BERG SOKN,977001390,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.senja.kirken.no,,BERG SOKN,977001390,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
 www.senja.kommune.no,,SENJA KOMMUNE,921369417,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
 www.senterfornordligefolk.no,,DAVVI ÁLBMOGIID GUOVDDÁS OS / SENTER FOR NORDLIGE FOLK AS,994331795,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-19,true,false,,
 www.setesdal.no,,SETESDAL INTERKOMMUNALT POLITISK RÅD,981543556,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-26,true,true,,
 www.shmil.no,,SØNDRE HELGELAND MILJØVERK,975824845,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-19,true,false,,
 www.sigdal.kommune.no,,SIGDAL KOMMUNE,964962766,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
-www.sigdalkirke.no,,EGGEDAL SOKN,976990102,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-04,true,false,,
+www.sigdalkirke.no,,EGGEDAL SOKN,976990102,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.sigma2.no,,Sigma2,,stat,legacy,2026-10-27,TLS 1.2,X25519,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-05,true,true,,
-www.sikirken.no,,ALSTADHAUG SOKN,976999290,kirke,error,2026-10-29,,,,,,,false,false,,tidsavbrudd
+www.sikirken.no,,ALSTADHAUG SOKN,976999290,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 www.sikt.no,,SIKT - KUNNSKAPSSEKTORENS TJENESTELEVERANDØR,919477822,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-04,true,true,Cloudflare,
-www.siljan.kirken.no,,SILJAN SOKN,976991346,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
+www.siljan.kirken.no,,SILJAN SOKN,976991346,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.siljan.kommune.no,,SILJAN KOMMUNE,864953042,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,RSA-2048,DigiCert Inc,2027-03-19,true,false,,
 www.sim.as,,SUNNHORDLAND INTERKOMMUNALE MILJØVERK IKS,958284837,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-384,Let's Encrypt,2026-12-03,true,false,,
 www.sinsenkirke.no,,SINSEN SOKN,876987252,kirke,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,RSA-4096,Domeneshop AS,2018-12-05,false,false,,
@@ -1223,11 +1223,11 @@ www.skedsmo.kirken.no,,SKEDSMO KIRKELIGE FELLESRÅD,976986717,kirke,pqc,2026-10-
 www.skien.kirken.no,,BORGESTAD SOKN,976991168,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,false,,
 www.skien.kommune.no,,SKIEN KOMMUNE,938759839,kommune,tls13,2026-10-27,TLS 1.3,CurveP521,TLS_AES_256_GCM_SHA384,RSA-2048,DigiCert Inc,2027-02-26,true,true,,
 www.skienfritidspark.no,,SKIEN FRITIDSPARK KF,990522839,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-30,true,false,,
-www.skienkirke.no,,SKIEN SOKN,974339315,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.skienkirke.no,,SKIEN SOKN,974339315,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-03,true,false,,
 www.skiptvet.kirken.no,,SKIPTVET SOKN,976985958,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-26,true,true,Cloudflare,
 www.skiptvet.kommune.no,,SKIPTVET KOMMUNE,941962726,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-09,true,false,,
 www.skjaak.kommune.no,,SKJÅK KOMMUNE,961381096,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
-www.skjaak.kyrkja.no,,SKJÅK KYRKJELEGE FELLESRÅD,976988779,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.skjaak.kyrkja.no,,SKJÅK KYRKJELEGE FELLESRÅD,976988779,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.skjervoy.kommune.no,,SKJERVØY KOMMUNE,941812716,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-08,true,false,,
 www.skogerkirke.no,,SKOGER SOKN,976989724,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-05,true,false,,
 www.skogmus.no,,NORSK SKOGMUSEUM STI,970964002,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-19,true,true,,
@@ -1235,32 +1235,32 @@ www.skogtiltaksfondet.no,,SKOGTILTAKSFONDET,939582835,stat,tls13,2026-10-29,TLS 
 www.skyss.no,,VESTLAND FYLKESKOMMUNE SKYSS,992051825,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-13,true,true,Cloudflare,
 www.slagenmenighet.no,,SLAGEN SOKN,976990587,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-19,true,false,,
 www.smg-iks.no,,SETESDAL MILJØ & GJENVINNING IKS,988575941,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-26,true,true,,
-www.smola-kirken.no,,HOPEN SOKN,976998057,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.smola-kirken.no,,HOPEN SOKN,976998057,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-12,true,false,,
 www.smola.kommune.no,,SMØLA KOMMUNE,945012986,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-13,true,false,Azure Front Door,
 www.smolakommune.no,,SMØLA NÆRINGS- OG KULTURSENTER KF,997825705,kommunal-annen,error,2026-10-27,,,,,,,false,false,,DNS: no such host
-www.snaroya-menighet.no,,FORNEBULANDET SOKN,976986350,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-06,true,false,,
+www.snaroya-menighet.no,,FORNEBULANDET SOKN,976986350,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.snasa.kommune.no,,SNÅSA KOMMUNE,964982031,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
 www.snasafjellstyre.no,,SNÅSA FJELLSTYRE,971388285,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-16,true,false,Cloudflare,
 www.sodir.no,,SOKKELDIREKTORATET,870917732,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,DigiCert Inc,2026-11-19,true,false,Cloudflare,
 www.sognbrann.no,,SOGN BRANN OG REDNING IKS,996629880,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-22,true,true,,
 www.sogndal.kommune.no,,SOGNDAL KOMMUNE,922121893,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-24,true,false,,
-www.sogndal.kyrkja.no,,BALESTRAND SOKN,976995953,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-03,true,false,,
-www.sognemenighet.no,,SØGNE SOKN,971335386,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-24,true,false,,
+www.sogndal.kyrkja.no,,BALESTRAND SOKN,976995953,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
+www.sognemenighet.no,,SØGNE SOKN,971335386,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.sognfriluftsrad.no,,"SOGN FRILUFTSRÅD, KOMMUNALT OPPGÅVEFELLESSKAP",933064123,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-10,true,false,,
 www.soir.no,,SØR-ØSTERDAL INTERKOMMUNALE RENOVASJONSSELSKAP,977041341,kommunal-annen,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-10,true,false,,
-www.sokndal.kirken.no,,SOKNDAL SOKN,976993462,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-03,true,false,,
+www.sokndal.kirken.no,,SOKNDAL SOKN,976993462,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 www.sokndal.kommune.no,,SOKNDAL KOMMUNE,964965692,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-11,true,false,Azure Front Door,
 www.sola.kommune.no,,SOLA KOMMUNE,948243113,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
 www.solorrenovasjon.no,,SOLØR RENOVASJON IKS,970961747,kommunal-annen,legacy,2026-10-27,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
-www.solumkirkene.no,,MELUM SOKN,976991214,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.solumkirkene.no,,MELUM SOKN,976991214,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-16,true,false,,
 www.solund.kommune.no,,SOLUND KOMMUNE,964967458,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-29,true,false,Azure Front Door,
 www.solund.kyrkja.no,,SOLUND SOKN,976995759,kirke,tls13,2026-10-28,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.somna.kommune.no,,SØMNA KOMMUNE,944810277,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-04,true,false,Azure Front Door,
 www.sondre-land.kommune.no,,SØNDRE LAND KOMMUNE,961381630,kommune,legacy,2026-10-27,TLS 1.2,X25519,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-10,true,true,,
-www.sondreslagen.no,,SØNDRE SLAGEN SOKN,976990609,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-03,true,false,,
-www.sor-aurdal.kommune.no,,SØR-AURDAL KOMMUNE,961381819,kommune,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
+www.sondreslagen.no,,SØNDRE SLAGEN SOKN,976990609,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
+www.sor-aurdal.kommune.no,,SØR-AURDAL KOMMUNE,961381819,kommune,error,2026-10-27,,,,,,,false,false,,read: connection reset by peer
 www.sor-fron.kommune.no,,SØR-FRON KOMMUNE,941827195,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
-www.sor-odal.kirken.no,,OPPSTAD SOKN,976987896,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
+www.sor-odal.kirken.no,,OPPSTAD SOKN,976987896,kirke,error,2026-10-27,,,,,,,false,false,,tilkobling avvist
 www.sor-odal.kommune.no,,SØR-ODAL KOMMUNE,964947716,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_128_GCM_SHA256,RSA-2048,GlobalSign nv-sa,2026-12-31,true,true,,
 www.sor-varanger.kommune.no,,SØR-VARANGER KOMMUNE,942110286,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-12,true,true,,
 www.sorfold.kommune.no,,SØRFOLD KOMMUNE,972417750,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-04,true,false,,
@@ -1288,7 +1288,7 @@ www.statsbygg.no,,STATSBYGG,971278374,stat,legacy,2026-10-27,TLS 1.2,CurveP256,T
 www.statsforvalteren.no,,Statsforvalteren,,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-02,true,true,Cloudflare,
 www.stavanger-konserthus.no,,STAVANGER KONSERTHUS IKS,989887823,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-25,true,false,Cloudflare,
 www.stavanger.kommune.no,,STAVANGER KOMMUNE,964965226,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,DigiCert Inc,2027-03-22,true,true,Azure Front Door,
-www.stavechurch.no,,RINGEBU KIRKELIGE FELLESRÅD,976988965,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-11-28,true,true,,
+www.stavechurch.no,,RINGEBU KIRKELIGE FELLESRÅD,976988965,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-27,true,true,,
 www.stavne.no,,STAVNE INKLUDERING TRONDHEIM KF,923801154,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-22,true,false,,
 www.steigen.kommune.no,,STEIGEN KOMMUNE,962299385,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,Azure Front Door,
 www.steinkjer-fjellstyre.no,,STEINKJER FJELLSTYRE,975737349,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-07,true,true,,
@@ -1297,7 +1297,7 @@ www.steinkjerbygg.no,,STEINKJERBYGG KF,914310148,kommunal-annen,tls13,2026-10-27
 www.sthf.no,,SYKEHUSET TELEMARK HF,983975267,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-13,true,true,Cloudflare,
 www.stiftelsenpilar.no,,PILAR - KOMPETANSETJENESTEN FOR PSYKISK HELSE OG BARNEVERN STI,980633004,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-11-30,true,true,,
 www.stjordal.kommune.no,,STJØRDAL KOMMUNE,939958851,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
-www.stokka.menighet.no,,STOKKA SOKN,971339918,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-12,true,false,,
+www.stokka.menighet.no,,STOKKA SOKN,971339918,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.stolav.no,,ST. OLAVS HOSPITAL HF,883974832,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-13,true,true,Cloudflare,
 www.stor-elvdal.kirken.no,,STOR-ELVDAL KIRKELIGE FELLESRÅD,976988299,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
 www.stor-elvdal.kommune.no,,STOR-ELVDAL KOMMUNE,964948887,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
@@ -1319,7 +1319,7 @@ www.sunndal.kommune.no,,SUNNDAL KOMMUNE,964981604,kommune,tls13,2026-10-27,TLS 1
 www.sunnhordland.museum.no,,SUNNHORDLAND MUSEUM STI,987670509,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-384,Let's Encrypt,2026-12-05,true,false,,
 www.surnadal.kirken.no,,MO SOKN,876997932,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
 www.surnadal.kommune.no,,SURNADAL KOMMUNE,964981892,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
-www.surnadal.kyrkja.no,,SURNADAL KYRKJELEGE FELLESRÅD,976997956,kirke,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
+www.surnadal.kyrkja.no,,SURNADAL KYRKJELEGE FELLESRÅD,976997956,kirke,error,2026-10-30,,,,,,,false,false,,tidsavbrudd
 www.sus.no,,HELSE STAVANGER HF,983974678,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-11-24,true,false,,
 www.svalbardmuseum.no,,STIFTELSEN SVALBARD MUSEUM,989469266,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-25,true,false,,
 www.sveio.kommune.no,,SVEIO KOMMUNE,864967272,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
@@ -1360,8 +1360,8 @@ www.toll.no,,TOLLETATEN,974761343,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS
 www.torpa-fjellstyre.no,,TORPA FJELLSTYRE,871305862,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-08,true,true,,
 www.torridal.com,,TORRIDAL SOKN,976992512,kirke,tls13,2026-10-28,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-07,true,false,,
 www.trana.kommune.no,,TRÆNA KOMMUNE,940192692,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-01,true,false,,
-www.trefoldighet.menighet.no,,TREFOLDIGHET SOKN,976992075,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
-www.trollfjellgeopark.no,,TROLLFJELL FRILUFTSRÅD KOMMUNALT OPPGAVEFELLESSKAP,918083774,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-11-27,true,false,,
+www.trefoldighet.menighet.no,,TREFOLDIGHET SOKN,976992075,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,false,,
+www.trollfjellgeopark.no,,TROLLFJELL FRILUFTSRÅD KOMMUNALT OPPGAVEFELLESSKAP,918083774,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-27,true,false,,
 www.tromsfylke.no,,TROMS FYLKESKOMMUNE,930068128,fylkeskommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.tromso.kommune.no,,TROMSØ KOMMUNE,940101808,kommune,pqc,2026-10-28,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,Cloudflare,
 www.tromsobadet.no,,TROMSØBADET KF,819869162,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-384,Let's Encrypt,2027-01-07,true,true,,
@@ -1371,16 +1371,16 @@ www.trygderetten.no,,TRYGDERETTEN,974761084,stat,tls13,2026-10-27,TLS 1.3,X25519
 www.trysil.kirken.no,,LJØRDALEN SOKN,976988159,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-02,true,true,Cloudflare,
 www.trysil.kommune.no,,TRYSIL KOMMUNE,864948502,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
 www.tso.no,,TRONDHEIM SYMFONIORKESTER & OPERA STI,971434023,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-384,Let's Encrypt,2027-01-26,true,false,,
-www.tvedestrand.kirken.no,,DYPVÅG SOKN,976992199,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
+www.tvedestrand.kirken.no,,DYPVÅG SOKN,976992199,kirke,error,2026-10-27,,,,,,,false,false,,tilkobling avvist
 www.tvedestrand.kommune.no,,TVEDESTRAND KOMMUNE,964965781,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-22,true,false,Azure Front Door,
-www.tveitmenighet.no,,TVEIT SOKN,976992601,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
+www.tveitmenighet.no,,TVEIT SOKN,976992601,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-12,true,false,,
 www.tydal.kommune.no,,TYDAL KOMMUNE,864983472,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,true,,
-www.tydalmenighet.no,,TYDAL SOKN,976999002,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.tydalmenighet.no,,TYDAL SOKN,976999002,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-07,true,false,,
 www.tynset.kommune.no,,TYNSET KOMMUNE,940837685,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-14,true,false,Azure Front Door,
 www.tynsetkirke.no,,TYNSET KIRKELIGE FELLESRÅD,976988485,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.tysfjord.kirken.no,,KJØPSVIK SOKN,977000580,kirke,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
 www.tysnes.kommune.no,,TYSNES KOMMUNE,959412340,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2026-12-21,true,true,,
-www.tysnes.kyrkja.no,,TYSNES KYRKJELEGE FELLESRÅD,876994712,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.tysnes.kyrkja.no,,TYSNES KYRKJELEGE FELLESRÅD,876994712,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-15,true,false,,
 www.tysvaerkirken.no,,BOKN SOKN,976993942,kirke,tls13,2026-10-29,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-24,true,false,,
 www.tysver.kommune.no,,TYSVÆR KOMMUNE,964979812,kommune,pqc,2026-10-29,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-10,true,false,Azure Front Door,
 www.udi.no,,UTLENDINGSDIREKTORATET,974760746,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-4096,Let's Encrypt,2026-12-08,true,true,Azure Front Door,
@@ -1388,12 +1388,12 @@ www.udir.no,,UTDANNINGSDIREKTORATET,970018131,stat,pqc,2026-10-27,TLS 1.3,X25519
 www.uia.no,,UNIVERSITETET I AGDER,970546200,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_CHACHA20_POLY1305_SHA256,ECDSA-P-256,Hellenic Academic and Research Institutions CA,2026-11-18,true,true,,
 www.uib.no,,UNIVERSITETET I BERGEN,874789542,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Hellenic Academic and Research Institutions CA,2027-02-08,true,true,,
 www.uio.no,,UNIVERSITETET I OSLO,971035854,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_CHACHA20_POLY1305_SHA256,ECDSA-P-256,Hellenic Academic and Research Institutions CA,2027-03-04,true,true,,
-www.uis.no,,UNIVERSITETET I STAVANGER,971564679,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-27,true,false,,
+www.uis.no,,UNIVERSITETET I STAVANGER,971564679,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-27,true,false,,
 www.uit.no,,UNIVERSITETET I TROMSØ - NORGES ARKTISKE UNIVERSITET,970422528,stat,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,ECDSA-P-256,Hellenic Academic and Research Institutions CA,2026-12-08,true,false,,
 www.ukom.no,,STATENS UNDERSØKELSESKOMMISJON FOR HELSE- OG OMSORGSTJENESTEN,921018924,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-25,true,true,Fastly,
 www.ullensaker.kommune.no,,ULLENSAKER KOMMUNE,933649768,kommune,legacy,2026-10-29,TLS 1.2,CurveP384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 www.ullensvang-statsallmenning.org,,ULLENSVANG FJELLSTYRE,975691225,stat,error,2026-10-27,,,,,,,false,false,,DNS: no such host
-www.ullensvang.kyrkjer.no,,ODDA SOKN,876994852,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.ullensvang.kyrkjer.no,,ODDA SOKN,876994852,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-02,true,false,,
 www.ulleraalkirke.no,,ULLERÅL SOKN,976989813,kirke,error,2026-10-27,,,,,,,false,false,,DNS: no such host
 www.ulstein.kommune.no,,ULSTEIN KOMMUNE,964979456,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
 www.ulsteinkyrkje.no,,ULSTEIN SOKN,976997093,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-06,true,true,Cloudflare,
@@ -1418,7 +1418,7 @@ www.valdres.no,,VALDRES NATUR- OG KULTURPARK KOMMUNALT OPPGAVEFELLESSKAP,8766621
 www.valer.kommune.no,,VÅLER KOMMUNE,959272581,kommune,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-4096,Let's Encrypt,2027-01-09,true,false,,
 www.valg.no,,VALGDIREKTORATET,916132727,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-23,true,true,Cloudflare,
 www.valle.kommune.no,,VALLE KOMMUNE,964966575,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-22,true,false,Azure Front Door,
-www.vang.kommune.no,,VANG KOMMUNE,961382246,kommune,error,2026-10-27,,,,,,,false,false,,tidsavbrudd
+www.vang.kommune.no,,VANG KOMMUNE,961382246,kommune,error,2026-10-27,,,,,,,false,false,,read: connection reset by peer
 www.vanylven.kommune.no,,VANYLVEN KOMMUNE,964978662,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-21,true,true,,
 www.varangermuseum.no,,VARANGER MUSEUM IKS,989349716,kommunal-annen,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2027-01-04,true,false,,
 www.varden.menighet.no,,VARDEN SOKN,876993252,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
@@ -1426,7 +1426,7 @@ www.vardo.kommune.no,,VARDØ KOMMUNE,972418048,kommune,pqc,2026-10-27,TLS 1.3,X2
 www.vardobaiki.no,,VÁRDOBÁIKI AS,985425329,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Let's Encrypt,2027-01-16,true,true,,
 www.varoy.kommune.no,,VÆRØY KOMMUNE,964994307,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_256_GCM_SHA384,RSA-2048,Let's Encrypt,2026-12-31,true,false,,
 www.vea-fs.no,,NORGES GRØNNE FAGSKOLE - VEA,870961642,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2026-12-08,true,false,,
-www.vedavagenkirke.no,,VEAVÅGEN SOKN,897081032,kirke,error,2026-10-29,,,,,,,false,false,,tidsavbrudd
+www.vedavagenkirke.no,,VEAVÅGEN SOKN,897081032,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-27,true,false,,
 www.vefas.no,,"VEST-FINNMARK AVFALLSSELSKAP, OARJE-FINNMARKKU RIHPAFITNODAT VEFAS IKS",977079403,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-14,true,true,Cloudflare,
 www.vefsn.kirken.no,,DOLSTAD SOKN,977000041,kirke,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2026-12-31,true,true,Cloudflare,
 www.vefsn.kommune.no,,VEFSN KOMMUNE,844824122,kommune,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-27,true,false,,
@@ -1448,7 +1448,7 @@ www.vestre-slidre-fjellstyre.no,,VESTRE SLIDRE FJELLSTYRE,871306702,stat,pqc,202
 www.vestre-slidre.kommune.no,,VESTRE SLIDRE KOMMUNE,961382157,kommune,error,2026-10-27,,,,,,,false,false,,read: connection reset by peer
 www.vestre-toten.kommune.no,,VESTRE TOTEN KOMMUNE,971028300,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
 www.vestreviken.no,,VESTRE VIKEN HF,894166762,stat,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-20,true,true,Cloudflare,
-www.vestvagoy.kirken.no,,BORGE SOKN,877000702,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.vestvagoy.kirken.no,,BORGE SOKN,877000702,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2026-12-25,true,false,,
 www.vestvagoy.kommune.no,,VESTVÅGØY KOMMUNE,942570619,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
 www.vetinst.no,,VETERINÆRINSTITUTTET,970955623,stat,tls13,2026-10-27,TLS 1.3,X25519,TLS_AES_128_GCM_SHA256,RSA-2048,Let's Encrypt,2027-01-04,true,false,,
 www.vetlis.no,,VETERINÆRMEDISINSK LEGEMIDDELINFORMASJONSSENTER,975888622,stat,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,RSA-2048,SSL Corporation,2027-04-08,true,false,,
@@ -1466,7 +1466,7 @@ www.viv.no,,VESTFOLD VANN IKS,962351409,kommunal-annen,tls13,2026-10-29,TLS 1.3,
 www.vlms.no,,VALDRES LOKALMEDISINSKE SENTER - EIENDOM IKS,998436826,kommunal-annen,pqc,2026-10-27,TLS 1.3,X25519MLKEM768,TLS_AES_128_GCM_SHA256,ECDSA-P-256,Google Trust Services,2027-01-25,true,true,Cloudflare,
 www.voiemenighet.no,,VOIE SOKN,976992539,kirke,error,2026-10-27,,,,,,,false,false,,DNS: no such host
 www.volda.kommune.no,,VOLDA KOMMUNE,939760946,kommune,legacy,2026-10-27,TLS 1.2,CurveP256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-17,true,true,,
-www.volda.kyrkja.no,,AUSTEFJORD SOKN,976997123,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.volda.kyrkja.no,,AUSTEFJORD SOKN,976997123,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
 www.volda.kyrkje.no,,DALSFJORD SOKN,876997142,kirke,error,2026-10-27,,,,,,,false,false,,DNS: no such host
 www.voss.kommune.no,,VOSS HERAD,960510542,kommune,tls13,2026-10-27,TLS 1.3,CurveP256,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-16,true,true,,
-www.voss.kyrkja.no,,EVANGER OG BOLSTAD SOKN,976994981,kirke,error,2026-10-28,,,,,,,false,false,,tidsavbrudd
+www.voss.kyrkja.no,,EVANGER OG BOLSTAD SOKN,976994981,kirke,tls13,2026-10-30,TLS 1.3,X25519,TLS_AES_256_GCM_SHA384,RSA-3072,Let's Encrypt,2027-01-09,true,false,,
