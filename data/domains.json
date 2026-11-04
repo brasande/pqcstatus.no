@@ -2988,20 +2988,6 @@
     ]
   },
   {
-    "host": "uso.no",
-    "category": "stat",
-    "orgs": [
-      {
-        "name": "Universitetets symfoniorkester Oslo",
-        "orgForm": "",
-        "sector": "6100",
-        "municipality": "OSLO",
-        "source": "wikidata",
-        "parent": "UNIVERSITETET I OSLO"
-      }
-    ]
-  },
-  {
     "host": "utdanning.no",
     "category": "stat",
     "orgs": [
@@ -12605,11 +12591,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "876990792",
+        "orgnr": "986257543",
         "name": "BERG SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "LARVIK",
+        "municipality": "TRONDHEIM",
         "source": "brreg"
       },
       {
