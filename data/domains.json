@@ -2988,20 +2988,6 @@
     ]
   },
   {
-    "host": "uso.no",
-    "category": "stat",
-    "orgs": [
-      {
-        "name": "Universitetets symfoniorkester Oslo",
-        "orgForm": "",
-        "sector": "6100",
-        "municipality": "OSLO",
-        "source": "wikidata",
-        "parent": "UNIVERSITETET I OSLO"
-      }
-    ]
-  },
-  {
     "host": "utdanning.no",
     "category": "stat",
     "orgs": [
@@ -14101,7 +14087,7 @@
         "source": "brreg"
       },
       {
-        "orgnr": "974338629",
+        "orgnr": "976986024",
         "name": "VÅLER SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
@@ -21912,19 +21898,19 @@
         "source": "brreg"
       },
       {
-        "orgnr": "974760894",
-        "name": "UTRYKNINGSPOLITIET",
-        "orgForm": "ORGL",
-        "sector": "6100",
-        "municipality": "LARVIK",
-        "source": "wikidata"
-      },
-      {
         "orgnr": "986210504",
         "name": "POLITIETS UTLENDINGSENHET",
         "orgForm": "ORGL",
         "sector": "6100",
         "municipality": "OSLO",
+        "source": "wikidata"
+      },
+      {
+        "orgnr": "974760894",
+        "name": "UTRYKNINGSPOLITIET",
+        "orgForm": "ORGL",
+        "sector": "6100",
+        "municipality": "LARVIK",
         "source": "wikidata"
       },
       {
