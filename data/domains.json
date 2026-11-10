@@ -2936,7 +2936,7 @@
     "category": "stat",
     "orgs": [
       {
-        "name": "NRK1",
+        "name": "NRK3",
         "orgForm": "",
         "sector": "6100",
         "municipality": "OSLO",
@@ -12781,11 +12781,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976986555",
+        "orgnr": "974761882",
         "name": "FROGNER SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "LILLESTRØM",
+        "municipality": "OSLO",
         "source": "brreg"
       },
       {
@@ -15488,12 +15488,12 @@
     "category": "stat",
     "orgs": [
       {
-        "name": "Klagenemndssekretariatet",
+        "name": "Energiklagenemnda",
         "orgForm": "",
         "sector": "6100",
         "municipality": "OSLO",
         "source": "wikidata",
-        "parent": "NÆRINGS- OG FISKERIDEPARTEMENTET"
+        "parent": "ENERGIDEPARTEMENTET"
       },
       {
         "orgnr": "918195548",
