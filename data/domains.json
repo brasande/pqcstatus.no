@@ -21912,14 +21912,6 @@
         "source": "brreg"
       },
       {
-        "orgnr": "974760894",
-        "name": "UTRYKNINGSPOLITIET",
-        "orgForm": "ORGL",
-        "sector": "6100",
-        "municipality": "LARVIK",
-        "source": "wikidata"
-      },
-      {
         "orgnr": "986210504",
         "name": "POLITIETS UTLENDINGSENHET",
         "orgForm": "ORGL",
@@ -21933,6 +21925,14 @@
         "orgForm": "ORGL",
         "sector": "6100",
         "municipality": "SØR-VARANGER",
+        "source": "wikidata"
+      },
+      {
+        "orgnr": "974760894",
+        "name": "UTRYKNINGSPOLITIET",
+        "orgForm": "ORGL",
+        "sector": "6100",
+        "municipality": "LARVIK",
         "source": "wikidata"
       }
     ]
