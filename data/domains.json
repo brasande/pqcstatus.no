@@ -4654,14 +4654,6 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976994221",
-        "name": "LØVSTAKKSIDEN SOKN",
-        "orgForm": "KIRK",
-        "sector": "6500",
-        "municipality": "BERGEN",
-        "source": "brreg"
-      },
-      {
         "orgnr": "976994256",
         "name": "SÆLEN SOKN",
         "orgForm": "KIRK",
@@ -5730,12 +5722,12 @@
     "category": "stat",
     "orgs": [
       {
-        "name": "Direktoratet for eksportkontroll og sanksjoner",
-        "orgForm": "",
+        "orgnr": "933024091",
+        "name": "DIREKTORATET FOR EKSPORTKONTROLL OG SANKSJONER",
+        "orgForm": "ORGL",
         "sector": "6100",
-        "municipality": "OSLO",
-        "source": "wikidata",
-        "parent": "UTENRIKSDEPARTEMENTET"
+        "municipality": "BÆRUM",
+        "source": "wikidata"
       }
     ]
   },
@@ -12781,11 +12773,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "974761882",
+        "orgnr": "976986555",
         "name": "FROGNER SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "OSLO",
+        "municipality": "LILLESTRØM",
         "source": "brreg"
       },
       {
@@ -14658,6 +14650,14 @@
         "orgForm": "KIRK",
         "sector": "6500",
         "municipality": "LØRENSKOG",
+        "source": "brreg"
+      },
+      {
+        "orgnr": "976994221",
+        "name": "LØVSTAKKSIDEN SOKN",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "BERGEN",
         "source": "brreg"
       },
       {
@@ -21912,6 +21912,14 @@
         "source": "brreg"
       },
       {
+        "orgnr": "974760894",
+        "name": "UTRYKNINGSPOLITIET",
+        "orgForm": "ORGL",
+        "sector": "6100",
+        "municipality": "LARVIK",
+        "source": "wikidata"
+      },
+      {
         "orgnr": "986210504",
         "name": "POLITIETS UTLENDINGSENHET",
         "orgForm": "ORGL",
@@ -21925,14 +21933,6 @@
         "orgForm": "ORGL",
         "sector": "6100",
         "municipality": "SØR-VARANGER",
-        "source": "wikidata"
-      },
-      {
-        "orgnr": "974760894",
-        "name": "UTRYKNINGSPOLITIET",
-        "orgForm": "ORGL",
-        "sector": "6100",
-        "municipality": "LARVIK",
         "source": "wikidata"
       }
     ]
