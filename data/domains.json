@@ -2988,6 +2988,20 @@
     ]
   },
   {
+    "host": "uso.no",
+    "category": "stat",
+    "orgs": [
+      {
+        "name": "Universitetets symfoniorkester Oslo",
+        "orgForm": "",
+        "sector": "6100",
+        "municipality": "OSLO",
+        "source": "wikidata",
+        "parent": "UNIVERSITETET I OSLO"
+      }
+    ]
+  },
+  {
     "host": "utdanning.no",
     "category": "stat",
     "orgs": [
@@ -12759,11 +12773,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "974761882",
+        "orgnr": "976986555",
         "name": "FROGNER SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "OSLO",
+        "municipality": "LILLESTRØM",
         "source": "brreg"
       },
       {
@@ -13319,11 +13333,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976995333",
+        "orgnr": "976987861",
         "name": "MO SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "MODALEN",
+        "municipality": "SØR-ODAL",
         "source": "brreg"
       },
       {
