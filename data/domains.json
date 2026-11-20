@@ -2424,7 +2424,7 @@
     "category": "stat",
     "orgs": [
       {
-        "name": "Nordlit",
+        "name": "Nordlyd",
         "orgForm": "",
         "sector": "6100",
         "municipality": "TROMSØ",
@@ -13333,11 +13333,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976995333",
+        "orgnr": "976987861",
         "name": "MO SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "MODALEN",
+        "municipality": "SØR-ODAL",
         "source": "brreg"
       },
       {
@@ -16768,6 +16768,14 @@
         "source": "brreg"
       },
       {
+        "orgnr": "976996011",
+        "name": "FLÅM SOKN",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "AURLAND",
+        "source": "brreg"
+      },
+      {
         "orgnr": "976996372",
         "name": "FØRDE SOKN",
         "orgForm": "KIRK",
@@ -16856,6 +16864,14 @@
         "source": "brreg"
       },
       {
+        "orgnr": "976996046",
+        "name": "NÆRØY SOKN",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "AURLAND",
+        "source": "brreg"
+      },
+      {
         "orgnr": "997668324",
         "name": "OSTERFJORDEN SOKN",
         "orgForm": "KIRK",
@@ -16877,6 +16893,22 @@
         "orgForm": "KIRK",
         "sector": "6500",
         "municipality": "SUNNFJORD",
+        "source": "brreg"
+      },
+      {
+        "orgnr": "976996038",
+        "name": "UNDREDAL SOKN",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "AURLAND",
+        "source": "brreg"
+      },
+      {
+        "orgnr": "876996022",
+        "name": "VANGEN SOKN",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "AURLAND",
         "source": "brreg"
       },
       {
