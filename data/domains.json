@@ -12773,11 +12773,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "974761882",
+        "orgnr": "976986555",
         "name": "FROGNER SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "OSLO",
+        "municipality": "LILLESTRØM",
         "source": "brreg"
       },
       {
@@ -13333,11 +13333,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976987861",
+        "orgnr": "976995333",
         "name": "MO SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "SØR-ODAL",
+        "municipality": "MODALEN",
         "source": "brreg"
       },
       {
@@ -15488,12 +15488,12 @@
     "category": "stat",
     "orgs": [
       {
-        "name": "Klagenemndssekretariatet",
+        "name": "Energiklagenemnda",
         "orgForm": "",
         "sector": "6100",
         "municipality": "OSLO",
         "source": "wikidata",
-        "parent": "NÆRINGS- OG FISKERIDEPARTEMENTET"
+        "parent": "ENERGIDEPARTEMENTET"
       },
       {
         "orgnr": "918195548",
