@@ -12773,11 +12773,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976986555",
+        "orgnr": "974761882",
         "name": "FROGNER SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "LILLESTRØM",
+        "municipality": "OSLO",
         "source": "brreg"
       },
       {
@@ -13333,11 +13333,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976995333",
+        "orgnr": "976987861",
         "name": "MO SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "MODALEN",
+        "municipality": "SØR-ODAL",
         "source": "brreg"
       },
       {
@@ -15966,6 +15966,20 @@
         "sector": "6100",
         "municipality": "LILLESTRØM",
         "source": "wikidata"
+      }
+    ]
+  },
+  {
+    "host": "www.krisesenteret-nt.no",
+    "category": "kommunal-annen",
+    "orgs": [
+      {
+        "orgnr": "913304845",
+        "name": "NORD-TRØNDELAG KRISESENTER IKS",
+        "orgForm": "IKS",
+        "sector": "6500",
+        "municipality": "VERDAL",
+        "source": "brreg"
       }
     ]
   },
