@@ -12346,6 +12346,30 @@
     "category": "kirke",
     "orgs": [
       {
+        "orgnr": "976999150",
+        "name": "MIDTRE NAMDAL KIRKELIGE FELLESRÅD",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "NAMSOS",
+        "source": "brreg"
+      },
+      {
+        "orgnr": "976999436",
+        "name": "NAMDALSEID SOKN",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "NAMSOS",
+        "source": "brreg"
+      },
+      {
+        "orgnr": "976999630",
+        "name": "OVERHALLA SOKN",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "NAMSOS",
+        "source": "brreg"
+      },
+      {
         "orgnr": "976999673",
         "name": "FLATANGER SOKN",
         "orgForm": "KIRK",
@@ -12370,22 +12394,6 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976999150",
-        "name": "MIDTRE NAMDAL KIRKELIGE FELLESRÅD",
-        "orgForm": "KIRK",
-        "sector": "6500",
-        "municipality": "NAMSOS",
-        "source": "brreg"
-      },
-      {
-        "orgnr": "976999436",
-        "name": "NAMDALSEID SOKN",
-        "orgForm": "KIRK",
-        "sector": "6500",
-        "municipality": "NAMSOS",
-        "source": "brreg"
-      },
-      {
         "orgnr": "976999118",
         "name": "NAMSOS SOKN",
         "orgForm": "KIRK",
@@ -12402,8 +12410,8 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976999630",
-        "name": "OVERHALLA SOKN",
+        "orgnr": "976999444",
+        "name": "STATLAND SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
         "municipality": "NAMSOS",
@@ -13319,11 +13327,11 @@
         "source": "brreg"
       },
       {
-        "orgnr": "976995333",
+        "orgnr": "976987861",
         "name": "MO SOKN",
         "orgForm": "KIRK",
         "sector": "6500",
-        "municipality": "MODALEN",
+        "municipality": "SØR-ODAL",
         "source": "brreg"
       },
       {
@@ -21944,19 +21952,19 @@
         "source": "brreg"
       },
       {
-        "orgnr": "986210504",
-        "name": "POLITIETS UTLENDINGSENHET",
-        "orgForm": "ORGL",
-        "sector": "6100",
-        "municipality": "OSLO",
-        "source": "wikidata"
-      },
-      {
         "orgnr": "974760894",
         "name": "UTRYKNINGSPOLITIET",
         "orgForm": "ORGL",
         "sector": "6100",
         "municipality": "LARVIK",
+        "source": "wikidata"
+      },
+      {
+        "orgnr": "986210504",
+        "name": "POLITIETS UTLENDINGSENHET",
+        "orgForm": "ORGL",
+        "sector": "6100",
+        "municipality": "OSLO",
         "source": "wikidata"
       },
       {
