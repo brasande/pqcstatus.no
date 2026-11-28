@@ -12346,14 +12346,6 @@
     "category": "kirke",
     "orgs": [
       {
-        "orgnr": "976999150",
-        "name": "MIDTRE NAMDAL KIRKELIGE FELLESRÅD",
-        "orgForm": "KIRK",
-        "sector": "6500",
-        "municipality": "NAMSOS",
-        "source": "brreg"
-      },
-      {
         "orgnr": "976999436",
         "name": "NAMDALSEID SOKN",
         "orgForm": "KIRK",
@@ -12388,6 +12380,14 @@
       {
         "orgnr": "976999134",
         "name": "KLINGA SOKN",
+        "orgForm": "KIRK",
+        "sector": "6500",
+        "municipality": "NAMSOS",
+        "source": "brreg"
+      },
+      {
+        "orgnr": "976999150",
+        "name": "MIDTRE NAMDAL KIRKELIGE FELLESRÅD",
         "orgForm": "KIRK",
         "sector": "6500",
         "municipality": "NAMSOS",
